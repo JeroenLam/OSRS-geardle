@@ -1,61 +1,60 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OSRS Geardle</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <h1>OSRS Geardle</h1>
-      <nav class="tabs">
-        <button type="button" data-mode="daily" class="tab active">Daily</button>
-        <button type="button" data-mode="practice" class="tab">Practice</button>
-      </nav>
+        <h1>OSRS Geardle</h1>
+        <nav class="tabs">
+            <button type="button" data-mode="daily" class="tab active">Daily</button>
+            <button type="button" data-mode="practice" class="tab">Practice</button>
+        </nav>
     </header>
 
     <main>
-      <div class="controls">
-        <div class="autocomplete">
-          <input
-            id="guess-input"
-            type="text"
-            placeholder="Guess an item..."
-            autocomplete="off"
-            spellcheck="false"
-          />
-          <ul id="suggestions" class="suggestions" hidden></ul>
+        <div class="controls">
+            <div class="autocomplete">
+                <input id="guess-input" type="text" placeholder="Guess an item..." autocomplete="off"
+                    spellcheck="false" />
+                <ul id="suggestions" class="suggestions" hidden></ul>
+            </div>
+            <button type="button" id="new-game" hidden>New item</button>
+            <button type="button" id="give-up" hidden>Give up</button>
         </div>
-        <button type="button" id="new-game" hidden>New item</button>
-        <button type="button" id="give-up" hidden>Give up</button>
-      </div>
 
-      <form id="seed-bar" class="seed-bar" hidden>
-        <span>Seed: <code id="seed-value"></code></span>
-        <button type="button" id="copy-link">Copy link</button>
-        <input id="seed-input" type="text" placeholder="Enter a friend's seed" maxlength="12" autocomplete="off" spellcheck="false" />
-        <button type="submit">Play seed</button>
-      </form>
+        <form id="seed-bar" class="seed-bar" hidden>
+            <span>Seed: <code id="seed-value"></code></span>
+            <button type="button" id="copy-link">Copy link</button>
+            <input id="seed-input" type="text" placeholder="Enter a friend's seed" maxlength="12" autocomplete="off"
+                spellcheck="false" />
+            <button type="submit">Play seed</button>
+        </form>
 
-      <div id="banner" class="banner" hidden></div>
+        <div id="banner" class="banner" hidden></div>
 
-      <div class="legend">
-        <span class="cell equal">Match</span>
-        <span class="cell higher">Target is higher ▲</span>
-        <span class="cell lower">Target is lower ▼</span>
-        <span class="cell different">Wrong</span>
-      </div>
+        <div class="legend">
+            <span class="cell equal">Match</span>
+            <span class="cell higher">Target is higher ▲</span>
+            <span class="cell lower">Target is lower ▼</span>
+            <span class="cell different">Wrong</span>
+        </div>
 
-      <div class="table-wrap">
-        <table id="guesses">
-          <thead></thead>
-          <tbody></tbody>
-        </table>
-      </div>
+        <div class="table-wrap">
+            <table id="guesses">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
     </main>
 
     <footer id="footer"></footer>
 
     <script type="module" src="/src/main.ts"></script>
-  </body>
+</body>
+
 </html>
