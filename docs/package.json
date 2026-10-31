@@ -1,20 +1,20 @@
 {
-  "name": "osrs-geardle",
-  "private": true,
-  "version": "0.1.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "papaparse": "^5.4.1"
-  },
-  "devDependencies": {
-    "@types/papaparse": "^5.3.14",
-    "typescript": "^5.6.0",
-    "vite": "^6.0.0",
-    "vite-plugin-pwa": "^2.0.0"
-  }
+    "name": "osrs-geardle",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "papaparse": "^5.4.1"
+    },
+    "devDependencies": {
+        "@types/papaparse": "^5.3.14",
+        "typescript": "^5.6.0",
+        "vite": "^6.0.0",
+        "vite-plugin-pwa": "^2.0.0"
+    }
 }
