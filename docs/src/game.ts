@@ -32,10 +32,16 @@ export function dailyTarget(dateKey: string): Item {
   return ITEMS[hashString(`geardle-${dateKey}`) % ITEMS.length];
 }
 
-export function randomTarget(exclude?: Item): Item {
-  let item: Item;
-  do {
-    item = ITEMS[Math.floor(Math.random() * ITEMS.length)];
-  } while (ITEMS.length > 1 && item === exclude);
-  return item;
+export function seededTarget(seed: string): Item {
+  return ITEMS[hashString(`practice-${seed}`) % ITEMS.length];
+}
+
+export function normalizeSeed(raw: string): string {
+  return raw.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 12);
+}
+
+export function randomSeed(): string {
+  const chars = 'abcdefghjkmnpqrstuvwxyz23456789';
+  const bytes = crypto.getRandomValues(new Uint8Array(6));
+  return Array.from(bytes, (b) => chars[b % chars.length]).join('');
 }

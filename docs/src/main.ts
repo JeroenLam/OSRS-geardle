@@ -1,6 +1,14 @@
 import './style.css';
 import { COLUMNS, ITEMS, type Column, type Item, type Value } from './data';
-import { compareItems, dailyTarget, randomTarget, todayKey, type Result } from './game';
+import {
+  compareItems,
+  dailyTarget,
+  normalizeSeed,
+  randomSeed,
+  seededTarget,
+  todayKey,
+  type Result,
+} from './game';
 import { setupAutocomplete } from './autocomplete';
 
 type Mode = 'daily' | 'practice';
@@ -14,6 +22,10 @@ const newGameBtn = document.querySelector<HTMLButtonElement>('#new-game')!;
 const giveUpBtn = document.querySelector<HTMLButtonElement>('#give-up')!;
 const footer = document.querySelector<HTMLElement>('#footer')!;
 const tabs = document.querySelectorAll<HTMLButtonElement>('.tab');
+const seedBar = document.querySelector<HTMLFormElement>('#seed-bar')!;
+const seedValue = document.querySelector<HTMLElement>('#seed-value')!;
+const seedInput = document.querySelector<HTMLInputElement>('#seed-input')!;
+const copyLinkBtn = document.querySelector<HTMLButtonElement>('#copy-link')!;
 
 const debug = new URLSearchParams(location.search).has('debug');
 const itemsByName = new Map(ITEMS.map((it) => [it.name, it]));
@@ -21,6 +33,7 @@ const itemsByName = new Map(ITEMS.map((it) => [it.name, it]));
 let mode: Mode = 'daily';
 let dateKey = todayKey();
 let target: Item = dailyTarget(dateKey);
+let seed = '';
 let guesses: Item[] = [];
 let gaveUp = false;
 
@@ -125,20 +138,32 @@ function render() {
   input.placeholder = over ? 'Game over' : 'Guess an item...';
   newGameBtn.hidden = mode !== 'practice';
   giveUpBtn.hidden = mode !== 'practice' || over;
+  seedBar.hidden = mode !== 'practice';
+  seedValue.textContent = seed;
   tabs.forEach((t) => t.classList.toggle('active', t.dataset.mode === mode));
 }
 
-function startGame(newMode: Mode) {
+function seedUrl(): URL {
+  const url = new URL(location.href);
+  if (mode === 'practice') url.searchParams.set('seed', seed);
+  else url.searchParams.delete('seed');
+  return url;
+}
+
+function startGame(newMode: Mode, practiceSeed?: string) {
   mode = newMode;
   gaveUp = false;
   if (mode === 'daily') {
     dateKey = todayKey();
     target = dailyTarget(dateKey);
+    seed = '';
     guesses = loadDaily();
   } else {
-    target = randomTarget(target);
+    seed = practiceSeed || randomSeed();
+    target = seededTarget(seed);
     guesses = [];
   }
+  history.replaceState(null, '', seedUrl());
   if (debug) console.log('[geardle] target:', target.displayName);
   input.value = '';
   ac.close();
@@ -167,7 +192,24 @@ giveUpBtn.addEventListener('click', () => {
   gaveUp = true;
   render();
 });
+seedBar.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const entered = normalizeSeed(seedInput.value);
+  seedInput.value = '';
+  if (entered) startGame('practice', entered);
+});
+copyLinkBtn.addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(seedUrl().toString());
+    copyLinkBtn.textContent = 'Copied!';
+  } catch {
+    copyLinkBtn.textContent = 'Copy failed';
+  }
+  setTimeout(() => (copyLinkBtn.textContent = 'Copy link'), 1500);
+});
 
 footer.textContent = `${ITEMS.length} items · Data from the Old School RuneScape Wiki`;
 renderHeader();
-startGame('daily');
+const initialSeed = normalizeSeed(new URLSearchParams(location.search).get('seed') ?? '');
+if (initialSeed) startGame('practice', initialSeed);
+else startGame('daily');
