@@ -1,0 +1,415 @@
+﻿equipment_slot,image,name,is_member,stab_attack,slash_attack,crush_attack,magic_attack,range_attack,stab_defence,slash_defence,crush_defence,magic_defence,range_defence,strength,range_strength,magic_strength,prayer,weight,attack_speed
+weapon_1h,https://oldschool.runescape.wiki/images/3rd_Age_axe.png?6fa46,3rd Age axe,True,-2,+38,+32,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/3rd_Age_druidic_staff.png?a4ed9,3rd Age druidic staff,True,+7,-1,+25,+10,+0,+2,+3,+1,+10,+0,+32,+0,+0%,+6,2.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/3rd_Age_longsword.png?a4ed9,3rd Age longsword,True,+0,+72,+60,+0,+0,+0,+3,+2,+0,+0,+75,+0,+0%,+0,1.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/3rd_Age_pickaxe.png?a4ed9,3rd Age pickaxe,True,+38,-2,+32,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,2.400,5
+weapon_1h,https://oldschool.runescape.wiki/images/3rd_Age_wand.png?3e370,3rd Age wand,True,+0,+0,+0,+20,+0,+0,+0,+0,+20,+0,+0,+0,+0%,+0,3.175,4
+weapon_1h,https://oldschool.runescape.wiki/images/Abyssal_dagger_%28p%2B%2B%29.png?c04be,Abyssal dagger#(p++),True,+75,+40,-4,+1,+0,+0,+0,+0,+1,+0,+75,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Abyssal_dagger.png?c04be,Abyssal dagger#(unp),True,+75,+40,-4,+1,+0,+0,+0,+0,+1,+0,+75,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Abyssal_tentacle.png?c04be,Abyssal tentacle,True,+0,+90,+0,+0,+0,+0,+0,+0,+0,+0,+86,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Abyssal_whip.png?727e9,Abyssal whip,True,+0,+82,+0,+0,+0,+0,+0,+0,+0,+0,+82,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Accursed_sceptre_%28a%29.png?7a41c,Accursed sceptre (a)#Charged,True,+0,+0,+0,+22,+0,+0,+0,+0,+20,+0,+0,+0,+0%,+0,0.198,5
+weapon_1h,https://oldschool.runescape.wiki/images/Accursed_sceptre.png?7a41c,Accursed sceptre#Charged,True,+0,+0,+0,+22,+0,+0,+0,+0,+20,+0,+0,+0,+0%,+0,0.198,4
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_axe.png?b714a,Adamant axe,False,-2,+17,+15,+0,+0,+0,+1,+0,+0,+0,+19,+0,+0%,+0,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_battleaxe.png?b714a,Adamant battleaxe,False,-2,+31,+26,+0,+0,+0,+0,+0,+0,-1,+41,+0,+0%,+0,3.175,6
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_cane.png?b714a,Adamant cane,True,+13,-2,+25,+0,+0,+0,+0,+0,+0,+0,+23,+0,+0%,+3,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_crossbow.png?b714a,Adamant crossbow,True,+0,+0,+0,+0,+78,+0,+0,+0,+0,+0,+0,+0,+0%,+0,6.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_dagger%28p%2B%2B%29.png?e3937,Adamant dagger#(p++),True,+15,+8,-4,+1,+0,+0,+0,+0,+1,+0,+14,+0,+0%,+0,0.510,4
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_dagger.png?e3937,Adamant dagger#(unp),False,+15,+8,-4,+1,+0,+0,+0,+0,+1,+0,+14,+0,+0%,+0,0.510,4
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_dart%28p%2B%2B%29.png?e3937,Adamant dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+17,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_dart.png?e3937,Adamant dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+17,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_hasta%28p%2B%2B%29.png?63d9c,Adamant hasta#(p++),True,+24,+24,+24,+0,+0,-6,-7,-5,+0,-6,+28,+0,+0%,+0,2.721,4
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_hasta.png?0a301,Adamant hasta#(unp),True,+24,+24,+24,+0,+0,-6,-7,-5,+0,-6,+28,+0,+0%,+0,2.721,4
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_knife%28p%2B%2B%29.png?e716d,Adamant knife#(p++),True,+0,+0,+0,+0,+15,+0,+0,+0,+0,+0,+0,+14,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_knife.png?e716d,Adamant knife#(unp),True,+0,+0,+0,+0,+15,+0,+0,+0,+0,+0,+0,+14,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_longsword.png?e716d,Adamant longsword,False,+20,+29,-2,+0,+0,+0,+3,+2,+0,+0,+31,+0,+0%,+0,2.041,5
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_mace.png?e716d,Adamant mace,False,+13,-2,+25,+0,+0,+0,+0,+0,+0,+0,+23,+0,+0%,+3,2.041,4
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_pickaxe.png?e716d,Adamant pickaxe,False,+17,-2,+15,+0,+0,+0,+1,+0,+0,+0,+19,+0,+0%,+0,2.721,5
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_scimitar.png?959ce,Adamant scimitar,False,+6,+29,-2,+0,+0,+0,+1,+0,+0,+0,+28,+0,+0%,+0,2.041,4
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_sword.png?cf6a6,Adamant sword,False,+23,+18,-2,+0,+0,+0,+2,+1,+0,+0,+24,+0,+0%,+0,2.041,4
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_thrownaxe.png?cf6a6,Adamant thrownaxe,True,+0,+0,+0,+0,+17,+0,+0,+0,+0,+0,+0,+23,+0%,+0,0.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Adamant_warhammer.png?cf6a6,Adamant warhammer,False,-4,-4,+35,-4,+0,+0,+0,+0,+0,+0,+39,+0,+0%,+0,2.041,6
+weapon_1h,https://oldschool.runescape.wiki/images/Ahrim%27s_staff.png?248b4,Ahrim's staff#Undamaged,True,+12,-1,+65,+15,+0,+3,+5,+2,+15,+0,+68,+0,+5%,+0,2.267,6
+weapon_1h,https://oldschool.runescape.wiki/images/Air_battlestaff.png?248b4,Air battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Ale_of_the_gods.png?248b4,Ale of the gods,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.060,4
+weapon_1h,https://oldschool.runescape.wiki/images/Amethyst_dart%28p%2B%2B%29.png?d8729,Amethyst dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+28,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Amethyst_dart.png?248b4,Amethyst dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+28,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Amy%27s_saw.png?ec289,Amy's saw,True,+2,+5,-2,+0,+0,+0,+2,+1,+0,+0,+5,+0,+0%,+0,0.800,5
+weapon_1h,https://oldschool.runescape.wiki/images/Ancient_crozier.png?0b6b6,Ancient crozier,True,+7,-1,+25,+10,+0,+2,+3,+1,+10,+0,+32,+0,+0%,+6,0.005,5
+weapon_1h,https://oldschool.runescape.wiki/images/Ancient_mace.png?0b6b6,Ancient mace,True,+10,-2,+16,+0,+0,+0,+0,+0,+0,+0,+14,+0,+0%,+3,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Ancient_sceptre.png?7a41c,Ancient sceptre#Normal,True,+20,-1,+50,+20,+0,+2,+3,+1,+15,+0,+60,+0,+10%,-1,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Ancient_staff.png?0b6b6,Ancient staff,True,+10,-1,+40,+15,+0,+2,+3,+1,+15,+0,+50,+0,+0%,-1,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Apprentice_wand.png?1f712,Apprentice wand,True,+0,+0,+0,+10,+0,+0,+0,+0,+10,+0,+0,+0,+0%,+0,0.255,4
+weapon_1h,https://oldschool.runescape.wiki/images/Arceuus_banner.png?1f712,Arceuus banner,True,+12,+12,+12,+0,+0,+1,+1,+0,+0,+0,+12,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Arclight.png?a892a,Arclight#Charged,True,+10,+38,+0,+0,+0,+0,+3,+2,+2,+0,+8,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Arkan_blade.png?73601,Arkan blade,True,+55,+70,+0,+0,+0,+0,+0,+0,+0,+0,+64,+0,+0%,+1,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Armadyl_crossbow.png?c60fb,Armadyl crossbow,True,+0,+0,+0,+0,+100,+0,+0,+0,+0,+0,+0,+0,+0%,+1,6.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Armadyl_crozier.png?e56f0,Armadyl crozier,True,+7,-1,+25,+10,+0,+2,+3,+1,+10,+0,+32,+0,+0%,+6,2.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Bandos_crozier.png?f928c,Bandos crozier,True,+7,-1,+25,+10,+0,+2,+3,+1,+10,+0,+32,+0,+0%,+6,2.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Barb-tail_harpoon.png?fefbc,Barb-tail harpoon,True,+9,+4,-4,+0,+0,+0,+0,+0,+0,+0,+6,+0,+0%,+0,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Barronite_mace.png?81129,Barronite mace#Normal,False,+20,-2,+40,+0,+0,+0,+0,+0,+0,+0,+40,+0,+0%,+2,2.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Battlestaff.png?3be33,Battlestaff,True,+7,-1,+25,+12,+0,+2,+3,+1,+12,+0,+32,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Beginner_wand.png?0b6b6,Beginner wand,True,+0,+0,+0,+5,+0,+0,+0,+0,+5,+0,+0,+0,+0%,+0,0.283,4
+weapon_1h,https://oldschool.runescape.wiki/images/Belle%27s_folly.png?cf7f4,Belle's folly,True,+100,+78,-3,+0,+0,+20,+15,-9,+0,+0,+102,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Black_axe.png?356fd,Black axe,False,-2,+10,+8,+0,+0,+0,+1,+0,+0,+0,+12,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Black_battleaxe.png?356fd,Black battleaxe,False,-2,+20,+15,+0,+0,+0,+0,+0,+0,-1,+24,+0,+0%,+0,2.721,6
+weapon_1h,https://oldschool.runescape.wiki/images/Black_cane.png?356fd,Black cane,True,+8,-2,+16,+0,+0,+0,+0,+0,+0,+0,+13,+0,+0%,+2,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Black_chinchompa.png?92848,Black chinchompa,True,+0,+0,+0,+0,+80,+0,+0,+0,+0,+0,+0,+30,+0%,+0,0.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Black_dagger%28p%2B%2B%29.png?92848,Black dagger#(p++),True,+10,+5,-4,+1,+0,+0,+0,+0,+1,+0,+7,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Black_dagger.png?92848,Black dagger#(unp),False,+10,+5,-4,+1,+0,+0,+0,+0,+1,+0,+7,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Black_dart%28p%2B%2B%29.png?0a33f,Black dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+6,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Black_dart.png?356fd,Black dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+6,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Black_knife%28p%2B%2B%29.png?db3d9,Black knife#(p++),True,+0,+0,+0,+0,+10,+0,+0,+0,+0,+0,+0,+8,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Black_knife.png?0a33f,Black knife#(unp),True,+0,+0,+0,+0,+10,+0,+0,+0,+0,+0,+0,+8,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Black_longsword.png?db3d9,Black longsword,False,+13,+18,-2,+0,+0,+0,+3,+2,+0,+0,+16,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Black_mace.png?db3d9,Black mace,False,+8,-2,+16,+0,+0,+0,+0,+0,+0,+0,+13,+0,+0%,+2,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Black_pickaxe.png?0d4ed,Black pickaxe,False,+10,-2,+8,+0,+0,+0,+1,+0,+0,+0,+11,+0,+0%,+0,0.010,5
+weapon_1h,https://oldschool.runescape.wiki/images/Black_scimitar.png?1b793,Black scimitar,False,+4,+19,-2,+0,+0,+0,+1,+0,+0,+0,+14,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Black_sword.png?5e74f,Black sword,False,+14,+10,-2,+0,+0,+0,+2,+1,+0,+0,+12,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Black_warhammer.png?5e74f,Black warhammer,False,-4,-4,+22,-4,+0,+0,+0,+0,+0,+0,+22,+0,+0%,+0,1.814,6
+weapon_1h,https://oldschool.runescape.wiki/images/Blade_of_Saeldor_%28c%29.png?8a5fa,Blade of Saeldor (c),True,+55,+100,+0,+0,+0,+0,+0,+0,+0,+0,+93,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Blade_of_Saeldor.png?8a5fa,Blade of Saeldor#Charged,True,+55,+100,+0,+0,+0,+0,+0,+0,+0,+0,+93,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Blessed_axe.png?31e5c,Blessed axe,True,-2,+12,+10,+0,+0,+0,+1,+0,+0,+0,+13,+0,+0%,+2,1.162,5
+weapon_1h,https://oldschool.runescape.wiki/images/Blisterwood_flail.png?78406,Blisterwood flail,True,+30,+44,+68,+8,+0,+4,+4,+2,+8,+0,+46,+0,+0%,+5,0.001,5
+weapon_1h,https://oldschool.runescape.wiki/images/Blisterwood_sickle.png?3d4c6,Blisterwood sickle,True,+30,+38,+0,+0,+0,+1,+2,+2,+2,+2,+32,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Blisterwood_sickle_%28e%29.png?9b496,Blisterwood sickle (e),True,+44,+56,+0,+0,+0,+1,+2,+2,+2,+2,+56,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Blisterwood_stake.png?1c4fc,Blisterwood stake,True,+0,+0,+0,+0,+16,+0,+0,+0,+0,+0,+0,+14,+0%,+0,0.340,3
+weapon_1h,https://oldschool.runescape.wiki/images/Blood_ancient_sceptre.png?3616e,Blood ancient sceptre#Normal,True,+20,-1,+50,+20,+0,+2,+3,+1,+15,+0,+60,+0,+10%,-1,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Blurite_crossbow.png?e22ed,Blurite crossbow,True,+0,+0,+0,+0,+30,+0,+0,+0,+0,+0,+0,+0,+0%,+0,4.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Blurite_sword.png?72d93,Blurite sword,False,+9,+14,-2,+0,+0,+0,+3,+2,+0,+0,+10,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Bone_club.png?b4aa7,Bone club,True,-4,-4,+16,-4,+0,+0,+0,+0,+0,+0,+15,+0,+0%,+0,0.907,6
+weapon_1h,https://oldschool.runescape.wiki/images/Bone_dagger_%28p%2B%2B%29.png?6b752,Bone dagger#(p++),True,+5,+3,-4,+1,+0,+0,+0,+0,+1,+0,+4,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bone_dagger.png?84a48,Bone dagger#(unp),True,+5,+3,-4,+1,+0,+0,+0,+0,+1,+0,+4,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bone_mace.png?f9a93,Bone mace,True,+40,-2,+60,+0,+0,+0,+0,+0,+0,+0,+55,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bone_spear.png?71e10,Bone spear,True,+11,+11,+11,+0,+0,+1,+1,+0,+0,+0,+13,+0,+0%,+0,1.360,6
+weapon_1h,https://oldschool.runescape.wiki/images/Bone_staff.png?f9a93,Bone staff,True,+0,+0,+0,+14,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Brine_sabre.png?05d25,Brine sabre,True,+7,+47,-2,+0,+0,+0,+0,+0,+0,+0,+46,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_axe.png?bd75b,Bronze axe,False,-2,+4,+2,+0,+0,+0,+1,+0,+0,+0,+5,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_battleaxe.png?bd75b,Bronze battleaxe,False,-2,+6,+3,+0,+0,+0,+0,+0,+0,-1,+9,+0,+0%,+0,2.721,6
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_crossbow.png?fe489,Bronze crossbow,True,+0,+0,+0,+0,+18,+0,+0,+0,+0,+0,+0,+0,+0%,+0,4.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_dagger%28p%2B%2B%29.png?bd75b,Bronze dagger#(p++),True,+4,+2,-4,+1,+0,+0,+0,+0,+1,+0,+3,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_dagger.png?bd75b,Bronze dagger#(unp),False,+4,+2,-4,+1,+0,+0,+0,+0,+1,+0,+3,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_dart%28p%2B%2B%29.png?acf91,Bronze dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+1,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_dart.png?bd75b,Bronze dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+1,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_hasta%28p%2B%2B%29.png?05d25,Bronze hasta#(p++),True,+5,+5,+5,+0,+0,-1,-1,-1,+0,-1,+6,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_hasta.png?fe489,Bronze hasta#(unp),True,+5,+5,+5,+0,+0,-1,-1,-1,+0,-1,+6,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_knife%28p%2B%2B%29.png?fe489,Bronze knife#(p++),True,+0,+0,+0,+0,+4,+0,+0,+0,+0,+0,+0,+3,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_knife.png?fe489,Bronze knife#(unp),True,+0,+0,+0,+0,+4,+0,+0,+0,+0,+0,+0,+3,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_longsword.png?cd939,Bronze longsword,False,+4,+5,-2,+0,+0,+0,+3,+2,+0,+0,+7,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_mace.png?fe489,Bronze mace,False,+1,-2,+6,+0,+0,+0,+0,+0,+0,+0,+5,+0,+0%,+1,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_pickaxe.png?fe489,Bronze pickaxe,False,+4,-2,+2,+0,+0,+0,+1,+0,+0,+0,+5,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_scimitar.png?cd939,Bronze scimitar,False,+1,+7,-2,+0,+0,+0,+1,+0,+0,+0,+6,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_sword.png?cd939,Bronze sword,False,+4,+3,-2,+0,+0,+0,+2,+1,+0,+0,+5,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_thrownaxe.png?cd939,Bronze thrownaxe,True,+0,+0,+0,+0,+4,+0,+0,+0,+0,+0,+0,+5,+0%,+0,0.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Bronze_warhammer.png?c50c3,Bronze warhammer,False,-4,-4,+10,-4,+0,+0,+0,+0,+0,+0,+8,+0,+0%,+0,1.814,6
+weapon_1h,https://oldschool.runescape.wiki/images/Bryophyta%27s_staff_%28uncharged%29.png?c50c3,Bryophyta's staff#Uncharged,False,+10,-1,+40,+15,+0,+2,+3,+1,+15,+0,+50,+0,+0%,+0,1.500,5
+weapon_1h,https://oldschool.runescape.wiki/images/Butterfly_net.png?a3905,Butterfly net,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.226,4
+weapon_1h,https://oldschool.runescape.wiki/images/Cattleprod.png?39d34,Cattleprod,True,+4,+2,-4,+1,+0,+0,+0,+0,+1,+0,+3,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Chinchompa.png?bcc94,Chinchompa,True,+0,+0,+0,+0,+45,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Cleaver.png?4d516,Cleaver,True,+7,+45,-2,+0,+0,+0,+1,+0,+0,+0,+44,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Corrupted_staff_%28attuned%29.png?1f2bc,Corrupted staff (attuned),True,+0,+0,+0,+128,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+2,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Corrupted_staff_%28basic%29.png?1f2bc,Corrupted staff (basic),True,+0,+0,+0,+84,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+1,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Corrupted_staff_%28perfected%29.png?1f2bc,Corrupted staff (perfected),True,+0,+0,+0,+184,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+3,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Crier_bell.png?6069a,Crier bell,True,-100,-100,-50,+0,+0,+0,+0,+0,+0,+0,-10,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Crossbow.png?a4d35,Crossbow,False,+0,+0,+0,+0,+6,+0,+0,+0,+0,+0,+0,+0,+0%,+0,8.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Crystal_axe.png?c7b9f,Crystal axe#Active,True,-2,+38,+32,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,0.907,5
+weapon_1h,https://oldschool.runescape.wiki/images/Crystal_harpoon.png?9e4ab,Crystal harpoon#Active,True,+38,+32,+0,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,0.907,5
+weapon_1h,https://oldschool.runescape.wiki/images/Crystal_pickaxe.png?2f2f0,Crystal pickaxe#Active,True,+38,-2,+32,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Crystal_staff_%28attuned%29.png?3bcd5,Crystal staff (attuned),True,+0,+0,+0,+128,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+2,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Crystal_staff_%28basic%29.png?3bcd5,Crystal staff (basic),True,+0,+0,+0,+84,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+1,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Crystal_staff_%28perfected%29.png?3bcd5,Crystal staff (perfected),True,+0,+0,+0,+184,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+3,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dark_dagger.png?cb9aa,Dark dagger,True,+5,+3,-4,+1,+0,+0,+0,+0,+1,+0,+0,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Darklight.png?3a184,Darklight,True,+10,+16,-2,+0,+0,+0,+3,+2,+2,+0,+13,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dawnbringer.png?3a184,Dawnbringer,True,+0,+0,+0,+25,+0,+2,+3,+1,+15,+0,+0,+0,+0%,+0,1.500,4
+weapon_1h,https://oldschool.runescape.wiki/images/Decorative_sword_%28gold%29.png?090e3,Decorative sword (gold)#Normal,False,+20,+29,-2,+0,+0,+0,+3,+2,+0,+0,+31,+0,+0%,+0,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Decorative_sword_%28red%29.png?090e3,Decorative sword (red),False,+13,+18,-2,+0,+0,+0,+3,+2,+0,+0,+16,+0,+0%,+0,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Decorative_sword_%28white%29.png?6b57c,Decorative sword (white),False,+15,+20,-2,+0,+0,+0,+3,+2,+0,+0,+22,+0,+0%,+0,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Diamond_sickle_%28b%29.png?aa5ad,Diamond sickle (b),True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+8,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dorgeshuun_crossbow.png?c85b3,Dorgeshuun crossbow,True,+0,+0,+0,+0,+42,+0,+0,+0,+0,+0,+0,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_axe.png?c85b3,Dragon axe,True,-2,+38,+32,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_battleaxe.png?97441,Dragon battleaxe,True,-2,+70,+65,+0,+0,+0,+0,+0,+0,-1,+85,+0,+0%,+0,2.721,6
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_cane.png?97441,Dragon cane,True,+40,-2,+60,+0,+0,+0,+0,+0,+0,+0,+55,+0,+0%,+5,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_crossbow.png?c85b3,Dragon crossbow,True,+0,+0,+0,+0,+94,+0,+0,+0,+0,+0,+0,+0,+0%,+0,6.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_dagger%28p%2B%2B%29.png?97441,Dragon dagger#(p++),True,+40,+25,-4,+1,+0,+0,+0,+0,+1,+0,+40,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_dagger.png?8fa13,Dragon dagger#(unp),True,+40,+25,-4,+1,+0,+0,+0,+0,+1,+0,+40,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_dart%28p%2B%2B%29.png?8fa13,Dragon dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+35,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_dart.png?cc5f3,Dragon dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+35,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_harpoon.png?cc5f3,Dragon harpoon,True,+38,+32,+0,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_hasta%28p%2B%2B%29.png?cc5f3,Dragon hasta#(p++),True,+55,+55,+55,+0,+0,-15,-15,-12,+0,-15,+60,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_hasta.png?8fa13,Dragon hasta#(unp),True,+55,+55,+55,+0,+0,-15,-15,-12,+0,-15,+60,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_hunter_crossbow.png?cc5f3,Dragon hunter crossbow,True,+0,+0,+0,+0,+95,+0,+0,+0,+0,+0,+0,+0,+0%,+0,7.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_hunter_lance.png?cc5f3,Dragon hunter lance,True,+85,+65,+65,+0,+0,+0,+0,+0,+0,+0,+70,+0,+0%,+0,3.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_hunter_wand.png?77ca0,Dragon hunter wand,True,+0,+0,+0,+16,+0,+0,+0,+0,+16,+0,+0,+0,+10%,+0,2.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_knife%28p%2B%2B%29.png?8fa13,Dragon knife#(p++),True,+0,+0,+0,+0,+28,+0,+0,+0,+0,+0,+0,+30,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_knife.png?8fa13,Dragon knife#(unp),True,+0,+0,+0,+0,+28,+0,+0,+0,+0,+0,+0,+30,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_longsword.png?8fa13,Dragon longsword,True,+58,+69,-2,+0,+0,+0,+3,+2,+0,+0,+71,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_mace.png?cc5f3,Dragon mace,True,+40,-2,+60,+0,+0,+0,+0,+0,+0,+0,+55,+0,+0%,+5,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_pickaxe.png?c85b3,Dragon pickaxe,True,+38,-2,+32,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,2.400,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_scimitar.png?cc5f3,Dragon scimitar,True,+8,+67,-2,+0,+0,+0,+1,+0,+0,+0,+66,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_sword.png?cc5f3,Dragon sword,True,+65,+55,-2,+0,+0,+0,+2,+1,+0,+0,+63,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_thrownaxe.png?8fa13,Dragon thrownaxe,True,+0,+0,+0,+0,+36,+0,+0,+0,+0,+0,+0,+47,+0%,+0,0.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Dragon_warhammer.png?73103,Dragon warhammer,True,-4,-4,+95,-4,+0,+0,+0,+0,+0,+0,+85,+0,+0%,+0,2.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Dramen_staff.png?5eb13,Dramen staff,True,-1,-1,+10,+10,+0,+2,+3,+1,+10,+0,+10,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Dust_battlestaff.png?5eb13,Dust battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Earth_battlestaff.png?0a875,Earth battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Egg_whisk.png?7a7c0,Egg whisk,True,+5,+3,-4,+1,+0,+0,+0,+0,+1,+0,+4,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Eldritch_Nightmare_staff.png?0a875,Eldritch Nightmare staff,True,+0,+0,+0,+16,+0,+0,+0,+0,+14,+0,+0,+0,+15%,+0,1.600,5
+weapon_1h,https://oldschool.runescape.wiki/images/Emberlight.png?77ca0,Emberlight,True,+63,+70,+0,+0,+0,+0,+3,+2,+5,+0,+13,+0,+0%,+0,0.907,4
+weapon_1h,https://oldschool.runescape.wiki/images/Emerald_sickle_%28b%29.png?ad09a,Emerald sickle (b),True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+2,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Enchanted_diamond_sickle_%28b%29.png?ba65f,Enchanted diamond sickle (b),True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+12,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Enchanted_emerald_sickle_%28b%29.png?d6df2,Enchanted emerald sickle (b),True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+3,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Enchanted_ruby_sickle_%28b%29.png?3bdf5,Enchanted ruby sickle (b),True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+6,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Excalibur.png?b8cf0,Excalibur,True,+20,+29,-2,+0,+0,+0,+3,+2,+1,+0,+25,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Eye_of_Ayak.png?bf437,Eye of Ayak#Charged,True,+0,+0,+0,+30,+0,+1,+5,+5,+10,+0,+0,+0,+0%,+2,2.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Fire_battlestaff.png?3859a,Fire battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Fremennik_blade.png?c27d7,Fremennik blade,True,+6,+29,-2,+0,+0,+0,+1,+0,+0,+0,+28,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Frying_pan.png?c3b05,Frying pan,True,-4,-4,+25,-4,+0,+0,+0,+0,+0,+0,+20,+0,+0%,+0,1.587,6
+weapon_1h,https://oldschool.runescape.wiki/images/Ghrazi_rapier.png?d2266,Ghrazi rapier,True,+100,+55,+0,+0,+0,+0,+0,+0,+0,+0,+93,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Gilded_axe.png?19135,Gilded axe,False,-2,+26,+24,+0,+0,+0,+1,+0,+0,+0,+29,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Gilded_hasta.png?fe558,Gilded hasta,True,+36,+36,+36,+0,+0,-10,-10,-9,+0,-10,+42,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Gilded_pickaxe.png?583e2,Gilded pickaxe,False,+26,-2,+24,+0,+0,+0,+1,+0,+0,+0,+29,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Glowing_dagger.png?06911,Glowing dagger,True,+5,+3,-4,+1,+0,+0,+0,+0,+1,+0,+0,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Granite_hammer.png?e75c0,Granite hammer,True,+0,+0,+57,-3,-1,+0,+0,+0,+0,+0,+56,+0,+0%,+0,5.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Granite_longsword.png?fee90,Granite longsword,True,+56,+65,-2,+0,+0,+0,+3,+2,+0,+0,+62,+0,+0%,+0,2.721,5
+weapon_1h,https://oldschool.runescape.wiki/images/Guthix_crozier.png?98c63,Guthix crozier,True,+7,-1,+25,+10,+0,+2,+3,+1,+10,+0,+32,+0,+0%,+6,2.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Guthix_staff.png?98c63,Guthix staff,True,-1,-1,+6,+6,+0,+2,+3,+1,+6,+0,+2,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Hallowed_flail.png?6259b,Hallowed flail,True,+32,+68,+0,+10,+0,+0,+2,+0,+10,+0,+46,+0,+0%,+6,0.001,4
+weapon_1h,https://oldschool.runescape.wiki/images/Ham_joint.png?64612,Ham joint,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,2.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Harmonised_Nightmare_staff.png?20d11,Harmonised Nightmare staff,True,+0,+0,+0,+16,+0,+0,+0,+0,+14,+0,+0,+0,+15%,+0,1.600,5
+weapon_1h,https://oldschool.runescape.wiki/images/Harry%27s_cutlass.png?bfea5,Harry's cutlass,True,+3,+14,+0,-5,+0,+4,+4,+4,+0,+0,+22,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Holy_ghrazi_rapier.png?53fc0,Holy ghrazi rapier,True,+100,+55,+0,+0,+0,+0,+0,+0,+0,+0,+93,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Holy_sanguinesti_staff.png?53fc0,Holy sanguinesti staff#Charged,True,+0,+0,+0,+25,-4,+2,+3,+1,+15,+0,+0,+0,+0%,+0,1.500,4
+weapon_1h,https://oldschool.runescape.wiki/images/Holy_water.png?e2748,Holy water,True,+0,+0,+0,+0,+6,+0,+0,+0,+0,+0,+0,+12,+0%,+0,0.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Hosidius_banner.png?e2748,Hosidius banner,True,+12,+12,+12,+0,+0,+1,+1,+0,+0,+0,+12,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Hunter%27s_spear.png?f87fd,Hunter's spear,True,+0,+0,+0,+0,+73,+0,+0,+0,+0,+0,+48,+0,+0%,+1,0.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Hunters%27_crossbow.png?1940c,Hunters' crossbow,True,+0,+0,+0,+0,+55,+0,+0,+0,+0,+0,+0,+0,+0%,+0,5.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Hunters%27_sunlight_crossbow.png?b12ad,Hunters' sunlight crossbow,True,+0,+0,+0,+0,+79,+0,+0,+0,+0,+0,+0,+0,+0%,+0,6.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iban%27s_staff_%28u%29.png?1940c,Iban's staff (u),True,+10,-1,+40,+10,+0,+2,+3,+1,+10,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Iban%27s_staff.png?7331d,Iban's staff#Regular,True,+10,-1,+40,+10,+0,+2,+3,+1,+10,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Ice_ancient_sceptre.png?7d63e,Ice ancient sceptre#Normal,True,+20,-1,+50,+20,+0,+2,+3,+1,+15,+0,+60,+0,+10%,-1,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Imcando_hammer.png?2e2d6,Imcando hammer#Repaired,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,2.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Infernal_axe.png?19317,Infernal axe#Charged,True,-2,+38,+32,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Infernal_harpoon.png?19317,Infernal harpoon#Charged,True,+38,+32,+0,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Infernal_pickaxe.png?13f14,Infernal pickaxe#Charged,True,+38,-2,+32,+0,+0,+0,+1,+0,+0,+0,+42,+0,+0%,+0,2.400,5
+weapon_1h,https://oldschool.runescape.wiki/images/Inquisitor%27s_mace.png?13f14,Inquisitor's mace,True,+52,-4,+102,+0,+0,+0,+0,+0,+0,+0,+96,+0,+0%,+2,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_axe.png?13f14,Iron axe,False,-2,+5,+3,+0,+0,+0,+1,+0,+0,+0,+7,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_battleaxe.png?13f14,Iron battleaxe,False,-2,+8,+5,+0,+0,+0,+0,+0,+0,-1,+13,+0,+0%,+0,2.721,6
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_crossbow.png?b51d2,Iron crossbow,True,+0,+0,+0,+0,+42,+0,+0,+0,+0,+0,+0,+0,+0%,+0,4.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_dagger%28p%2B%2B%29.png?adc7e,Iron dagger#(p++),True,+5,+3,-4,+1,+0,+0,+0,+0,+1,+0,+4,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_dagger.png?adc7e,Iron dagger#(unp),False,+5,+3,-4,+1,+0,+0,+0,+0,+1,+0,+4,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_dart%28p%2B%2B%29.png?adc7e,Iron dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+2,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_dart.png?b51d2,Iron dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+2,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_hasta%28p%2B%2B%29.png?8b61b,Iron hasta#(p++),True,+8,+8,+8,+0,+0,-2,-2,-2,+0,-2,+10,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_hasta.png?8b61b,Iron hasta#(unp),True,+8,+8,+8,+0,+0,-2,-2,-2,+0,-2,+10,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_knife%28p%2B%2B%29.png?8b61b,Iron knife#(p++),True,+0,+0,+0,+0,+5,+0,+0,+0,+0,+0,+0,+4,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_knife.png?8b61b,Iron knife#(unp),True,+0,+0,+0,+0,+5,+0,+0,+0,+0,+0,+0,+4,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_longsword.png?9e4d4,Iron longsword,False,+6,+8,-2,+0,+0,+0,+3,+2,+0,+0,+10,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_mace.png?9e4d4,Iron mace,False,+4,-2,+9,+0,+0,+0,+0,+0,+0,+0,+7,+0,+0%,+1,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_pickaxe.png?9e4d4,Iron pickaxe,False,+5,-2,+3,+0,+0,+0,+1,+0,+0,+0,+7,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_pickaxe_%28nz%29.png?9e4d4,Iron pickaxe (nz),True,+5,-2,+3,+0,+0,+0,+1,+0,+0,+0,+7,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_scimitar.png?d652c,Iron scimitar,False,+2,+10,-2,+0,+0,+0,+1,+0,+0,+0,+9,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_sickle.png?d652c,Iron sickle,True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+1,+0,+0%,+0,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_sword.png?54303,Iron sword,False,+6,+4,-2,+0,+0,+0,+2,+1,+0,+0,+7,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_thrownaxe.png?54303,Iron thrownaxe,True,+0,+0,+0,+0,+5,+0,+0,+0,+0,+0,+0,+7,+0%,+0,0.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Iron_warhammer.png?b5121,Iron warhammer,False,-4,-4,+11,-4,+0,+0,+0,+0,+0,+0,+11,+0,+0%,+0,1.814,6
+weapon_1h,https://oldschool.runescape.wiki/images/Ivandis_flail.png?b5121,Ivandis flail,True,+24,+38,+62,+8,+0,+4,+4,+2,+8,+0,+42,+0,+0%,+5,0.001,5
+weapon_1h,https://oldschool.runescape.wiki/images/Jade_machete.png?c27a4,Jade machete,True,+0,+11,-2,+0,+0,+0,+1,+1,+0,+0,+6,+0,+0%,+0,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Keris_partisan.png?01e9b,Keris partisan,True,+58,-2,+57,+2,+0,+0,+0,+0,+0,+0,+45,+0,+0%,+3,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Keris_partisan_of_amascut.png?c21aa,Keris partisan of amascut#Inside ToA,True,+108,-2,+57,+2,+0,+0,+0,+0,+0,+0,+67,+0,+0%,+3,3.218,4
+weapon_1h,https://oldschool.runescape.wiki/images/Keris_partisan_of_amascut.png?c21aa,Keris partisan of amascut#Outside ToA,True,+58,-2,+57,+2,+0,+0,+0,+0,+0,+0,+45,+0,+0%,+3,3.218,4
+weapon_1h,https://oldschool.runescape.wiki/images/Keris_partisan_of_breaching.png?01e9b,Keris partisan of breaching,True,+58,-2,+57,+2,+0,+0,+0,+0,+0,+0,+45,+0,+0%,+3,3.218,4
+weapon_1h,https://oldschool.runescape.wiki/images/Keris_partisan_of_corruption.png?01e9b,Keris partisan of corruption,True,+58,-2,+57,+2,+0,+0,+0,+0,+0,+0,+45,+0,+0%,+3,3.218,4
+weapon_1h,https://oldschool.runescape.wiki/images/Keris_partisan_of_the_sun.png?01e9b,Keris partisan of the sun,True,+58,-2,+57,+2,+0,+0,+0,+0,+0,+0,+45,+0,+0%,+3,3.218,4
+weapon_1h,https://oldschool.runescape.wiki/images/Keris%28p%2B%2B%29.png?d8722,Keris#(p++),True,+40,+20,-10,+2,+0,+0,+0,+0,+2,+0,+30,+0,+0%,+2,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Keris.png?53f18,Keris#(unp),True,+40,+20,-10,+2,+0,+0,+0,+0,+2,+0,+30,+0,+0%,+2,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Kitchen_knife.png?ec129,Kitchen knife,True,+25,+12,-4,+1,+0,+0,+0,+0,+1,+0,+24,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Kodai_wand.png?af6ab,Kodai wand,True,+0,+0,+0,+28,+0,+0,+3,+3,+20,+0,+0,+0,+15%,+0,0.198,4
+weapon_1h,https://oldschool.runescape.wiki/images/Lava_battlestaff.png?6592f,Lava battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Leaf-bladed_battleaxe.png?fa8bd,Leaf-bladed battleaxe,True,-2,+72,+72,+0,+0,+0,+0,+0,+0,-1,+92,+0,+0%,+0,2.721,5
+weapon_1h,https://oldschool.runescape.wiki/images/Leaf-bladed_sword.png?fa8bd,Leaf-bladed sword,True,+67,+62,+0,+0,+0,+0,+0,+0,+0,+0,+50,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Lovakengj_banner.png?8cc7e,Lovakengj banner,True,+12,+12,+12,+0,+0,+1,+1,+0,+0,+0,+12,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Lucky_cutlass.png?8bd5a,Lucky cutlass,True,+5,+20,+0,-5,+0,+6,+6,+6,+0,+0,+25,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Lunar_staff.png?8bd5a,Lunar staff,True,+3,+2,+16,+13,+0,+2,+3,+2,+13,+1,+15,+0,+0%,+3,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Machete.png?8bd5a,Machete,True,+0,+6,-2,+0,+0,+0,+0,+0,+0,+0,+5,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Magic_butterfly_net.png?fa8bd,Magic butterfly net,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.226,4
+weapon_1h,https://oldschool.runescape.wiki/images/Magic_secateurs.png?ed6d0,Magic secateurs,True,+7,+9,-5,+1,+0,+0,+1,+0,+1,+0,+1,+0,+0%,+0,0.453,5
+weapon_1h,https://oldschool.runescape.wiki/images/Magic_staff.png?ed6d0,Magic staff,False,+2,-1,+10,+10,+0,+2,+3,+1,+10,+0,+7,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Maple_blackjack.png?717ea,Maple blackjack,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+20,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Maple_blackjack%28d%29.png?1f4ab,Maple blackjack(d),True,+0,+0,+0,+0,+0,+0,+0,+24,+0,+0,+20,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Maple_blackjack%28o%29.png?717ea,Maple blackjack(o),True,+0,+0,+24,+0,+0,+0,+0,+0,+0,+0,+20,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Master_wand.png?717ea,Master wand,True,+0,+0,+0,+20,+0,+0,+0,+0,+20,+0,+0,+0,+10%,+0,0.198,4
+weapon_1h,https://oldschool.runescape.wiki/images/Meat_tenderiser.png?23ebf,Meat tenderiser,True,-4,-4,+53,-4,+0,+0,+0,+0,+0,+0,+48,+0,+0%,+0,1.814,6
+weapon_1h,https://oldschool.runescape.wiki/images/Mist_battlestaff.png?92ebd,Mist battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_axe.png?ccf02,Mithril axe,False,-2,+12,+10,+0,+0,+0,+1,+0,+0,+0,+13,+0,+0%,+0,1.133,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_battleaxe.png?8b58a,Mithril battleaxe,False,-2,+22,+17,+0,+0,+0,+0,+0,+0,-1,+29,+0,+0%,+0,2.267,6
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_crossbow.png?ccf02,Mithril crossbow,True,+0,+0,+0,+0,+66,+0,+0,+0,+0,+0,+0,+0,+0%,+0,5.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_dagger%28p%2B%2B%29.png?ccf02,Mithril dagger#(p++),True,+11,+5,-4,+1,+0,+0,+0,+0,+1,+0,+10,+0,+0%,+0,0.396,4
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_dagger.png?ccf02,Mithril dagger#(unp),False,+11,+5,-4,+1,+0,+0,+0,+0,+1,+0,+10,+0,+0%,+0,0.396,4
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_dart%28p%2B%2B%29.png?8b58a,Mithril dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+9,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_dart.png?8b58a,Mithril dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+9,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_hasta%28p%2B%2B%29.png?8b58a,Mithril hasta#(p++),True,+17,+17,+17,+0,+0,-5,-5,-4,+0,-5,+18,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_hasta.png?8b58a,Mithril hasta#(unp),True,+17,+17,+17,+0,+0,-5,-5,-4,+0,-5,+18,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_knife%28p%2B%2B%29.png?6592f,Mithril knife#(p++),True,+0,+0,+0,+0,+11,+0,+0,+0,+0,+0,+0,+10,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_knife.png?8b58a,Mithril knife#(unp),True,+0,+0,+0,+0,+11,+0,+0,+0,+0,+0,+0,+10,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_longsword.png?8b58a,Mithril longsword,False,+15,+20,-2,+0,+0,+0,+3,+2,+0,+0,+22,+0,+0%,+0,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_mace.png?c2098,Mithril mace,False,+11,-2,+18,+0,+0,+0,+0,+0,+0,+0,+16,+0,+0%,+3,1.587,4
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_pickaxe.png?c2098,Mithril pickaxe,False,+12,-2,+10,+0,+0,+0,+1,+0,+0,+0,+13,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_scimitar.png?c2098,Mithril scimitar,False,+5,+21,-2,+0,+0,+0,+1,+0,+0,+0,+20,+0,+0%,+0,1.587,4
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_sword.png?c2098,Mithril sword,False,+16,+11,-2,+0,+0,+0,+2,+1,+0,+0,+17,+0,+0%,+0,1.587,4
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_thrownaxe.png?c2098,Mithril thrownaxe,True,+0,+0,+0,+0,+12,+0,+0,+0,+0,+0,+0,+16,+0%,+0,0.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mithril_warhammer.png?c2098,Mithril warhammer,False,-4,-4,+25,-4,+0,+0,+0,+0,+0,+0,+27,+0,+0%,+0,1.587,6
+weapon_1h,https://oldschool.runescape.wiki/images/Mud_battlestaff.png?7027d,Mud battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_air_staff.png?7fdca,Mystic air staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_dust_staff.png?60046,Mystic dust staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_earth_staff.png?db23d,Mystic earth staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_fire_staff.png?8b7d9,Mystic fire staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_lava_staff.png?db23d,Mystic lava staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_mist_staff.png?b3ec1,Mystic mist staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_mud_staff.png?60046,Mystic mud staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_smoke_staff.png?85699,Mystic smoke staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_steam_staff.png?4068d,Mystic steam staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Mystic_water_staff.png?c5c00,Mystic water staff,True,+10,-1,+40,+14,+0,+2,+3,+1,+14,+0,+50,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Nightmare_staff.png?1bf3c,Nightmare staff,True,+0,+0,+0,+16,+0,+0,+0,+0,+14,+0,+0,+0,+15%,+0,1.500,5
+weapon_1h,https://oldschool.runescape.wiki/images/Noose_wand.png?1bf3c,Noose wand,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Oak_blackjack.png?3fc61,Oak blackjack,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+2,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Oak_blackjack%28d%29.png?3fc61,Oak blackjack(d),True,+0,+0,+0,+0,+0,+0,+0,+4,+0,+0,+4,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Oak_blackjack%28o%29.png?3fc61,Oak blackjack(o),True,+0,+0,+4,+0,+0,+0,+0,+0,+0,+0,+4,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Oily_pearl_fishing_rod.png?b175e,Oily pearl fishing rod,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.481,4
+weapon_1h,https://oldschool.runescape.wiki/images/Opal_machete.png?8bdb9,Opal machete,True,+0,+8,-2,+0,+0,+0,+1,+1,+0,+0,+4,+0,+0%,+0,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Osmumten%27s_fang.png?8bfab,Osmumten's fang,True,+105,+75,+0,+0,+0,+0,+0,+0,+0,+0,+103,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Pearl_barbarian_rod.png?97482,Pearl barbarian rod,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Pearl_fishing_rod.png?3a750,Pearl fishing rod,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Pearl_fly_fishing_rod.png?219da,Pearl fly fishing rod,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Pharaoh%27s_sceptre_%281%29.png?f3f6a,Pharaoh's sceptre#Charged,True,+7,-1,+25,+10,+0,+2,+3,+1,+10,+0,+32,+0,+0%,+0,2.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Phoenix_crossbow.png?3a750,Phoenix crossbow,False,+0,+0,+0,+0,+6,+0,+0,+0,+0,+0,+0,+0,+0%,+0,3.628,6
+weapon_1h,https://oldschool.runescape.wiki/images/Piscarilius_banner.png?b225e,Piscarilius banner,True,+12,+12,+12,+0,+0,+1,+1,+0,+0,+0,+12,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Purging_staff.png?80ac4,Purging staff,True,+10,-5,+83,+37,+0,+1,+1,+0,+25,+0,+62,+0,+10%,+0,2.721,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rapier.png?219da,Rapier,True,+45,+7,-2,+0,+0,+0,+1,+0,+0,+0,+44,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Red_chinchompa.png?37ab1,Red chinchompa,True,+0,+0,+0,+0,+70,+0,+0,+0,+0,+0,+0,+15,+0%,+0,0.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Red_topaz_machete.png?2e2e3,Red topaz machete,True,+0,+16,-2,+0,+0,+0,+1,+1,+0,+0,+10,+0,+0%,+0,1.360,4
+weapon_1h,https://oldschool.runescape.wiki/images/Redwood_hiking_staff.png?82ad4,Redwood hiking staff,True,-4,-4,+10,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rod_of_Ivandis.png?dd602,Rod of Ivandis#(10),True,+0,-1,+7,+4,+0,+2,+3,+1,+4,+0,+3,+0,+0%,+0,0.001,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rolling_pin.png?43f24,Rolling pin,True,+20,-2,+39,+0,+0,+0,+0,+0,+0,+0,+36,+0,+0%,+4,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Royal_sceptre.png?625fb,Royal sceptre,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,4.535,4
+weapon_1h,https://oldschool.runescape.wiki/images/Ruby_sickle_%28b%29.png?1d333,Ruby sickle (b),True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+4,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_axe.png?eec05,Rune axe,False,-2,+26,+24,+0,+0,+0,+1,+0,+0,+0,+29,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_battleaxe.png?eec05,Rune battleaxe,False,-2,+48,+43,+0,+0,+0,+0,+0,+0,-1,+64,+0,+0%,+0,2.721,6
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_cane.png?eec05,Rune cane,True,+20,-2,+39,+0,+0,+0,+0,+0,+0,+0,+36,+0,+0%,+4,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_crossbow.png?eec05,Rune crossbow,True,+0,+0,+0,+0,+90,+0,+0,+0,+0,+0,+0,+0,+0%,+0,6.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_dagger%28p%2B%2B%29.png?8e13b,Rune dagger#(p++),True,+25,+12,-4,+1,+0,+0,+0,+0,+1,+0,+24,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_dagger.png?8e13b,Rune dagger#(unp),False,+25,+12,-4,+1,+0,+0,+0,+0,+1,+0,+24,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_dart%28p%2B%2B%29.png?8e13b,Rune dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+26,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_dart.png?8e13b,Rune dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+26,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_hasta%28p%2B%2B%29.png?11c4e,Rune hasta#(p++),True,+36,+36,+36,+0,+0,-10,-10,-9,+0,-10,+42,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_hasta.png?11c4e,Rune hasta#(unp),True,+36,+36,+36,+0,+0,-10,-10,-9,+0,-10,+42,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_knife%28p%2B%2B%29.png?f70fc,Rune knife#(p++),True,+0,+0,+0,+0,+25,+0,+0,+0,+0,+0,+0,+24,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_knife.png?f70fc,Rune knife#(unp),True,+0,+0,+0,+0,+25,+0,+0,+0,+0,+0,+0,+24,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_longsword.png?f70fc,Rune longsword,False,+38,+47,-2,+0,+0,+0,+3,+2,+0,+0,+49,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_mace.png?f70fc,Rune mace,False,+20,-2,+39,+0,+0,+0,+0,+0,+0,+0,+36,+0,+0%,+4,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_pickaxe.png?e8496,Rune pickaxe,False,+26,-2,+24,+0,+0,+0,+1,+0,+0,+0,+29,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_pickaxe_%28nz%29.png?f70fc,Rune pickaxe (nz),True,+26,-2,+24,+0,+0,+0,+1,+0,+0,+0,+29,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_scimitar.png?a6726,Rune scimitar,False,+7,+45,-2,+0,+0,+0,+1,+0,+0,+0,+44,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_sword.png?82a3a,Rune sword,False,+38,+26,-2,+0,+0,+0,+2,+1,+0,+0,+39,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_thrownaxe.png?82a3a,Rune thrownaxe,True,+0,+0,+0,+0,+26,+0,+0,+0,+0,+0,+0,+36,+0%,+0,0.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Rune_warhammer.png?82a3a,Rune warhammer,False,-4,-4,+53,-4,+0,+0,+0,+0,+0,+0,+62,+0,+0%,+0,1.814,6
+weapon_1h,https://oldschool.runescape.wiki/images/Sanguinesti_staff.png?dcaa9,Sanguinesti staff#Charged,True,+0,+0,+0,+25,-4,+2,+3,+1,+15,+0,+0,+0,+0%,+0,1.500,4
+weapon_1h,https://oldschool.runescape.wiki/images/Sarachnis_cudgel.png?c4e91,Sarachnis cudgel,True,+30,+0,+70,+0,+0,+0,+0,+0,+0,+0,+70,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Saradomin_banner.png?847d4,Saradomin banner#Minigame,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Saradomin_crozier.png?462fd,Saradomin crozier,True,+7,-1,+25,+10,+0,+2,+3,+1,+10,+0,+32,+0,+0%,+6,2.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Saradomin_staff.png?b8a3f,Saradomin staff,True,-1,-1,+6,+6,+0,+2,+3,+1,+6,+0,+2,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Shadow_ancient_sceptre.png?1cf68,Shadow ancient sceptre#Normal,True,+20,-1,+50,+20,+0,+2,+3,+1,+15,+0,+60,+0,+10%,-1,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Shayzien_banner.png?4b960,Shayzien banner,True,+12,+12,+12,+0,+0,+1,+1,+0,+0,+0,+12,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Silver_sickle.png?0df0a,Silver sickle,True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+1,+0,+0%,+0,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Silver_sickle_%28b%29.png?d6f8b,Silver sickle (b),True,+0,+0,+0,+0,+0,+0,+1,+1,+1,+1,+1,+0,+0%,+5,1.587,5
+weapon_1h,https://oldschool.runescape.wiki/images/Silverlight.png?0df0a,Silverlight#Normal,False,+9,+14,-2,+0,+0,+0,+3,+2,+1,+0,+12,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Skewer.png?0df0a,Skewer,True,+20,+29,-2,+0,+0,+0,+3,+2,+0,+0,+31,+0,+0%,+0,2.041,5
+weapon_1h,https://oldschool.runescape.wiki/images/Skull_sceptre.png?1d1f2,Skull sceptre,False,+0,-1,+7,+10,+0,+2,+3,+1,+4,+0,+3,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Skull_sceptre.png?1d1f2,Skull sceptre (i),False,+0,-1,+7,+10,+0,+2,+3,+1,+4,+0,+3,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Slayer%27s_staff.png?a0d07,Slayer's staff,True,+7,-1,+25,+12,+0,+2,+3,+1,+10,+0,+35,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Slayer%27s_staff_%28e%29.png?7fb98,Slayer's staff (e),True,+7,-1,+25,+12,+0,+2,+3,+1,+10,+0,+35,+0,+0%,+0,1.950,4
+weapon_1h,https://oldschool.runescape.wiki/images/Smoke_ancient_sceptre.png?ff515,Smoke ancient sceptre#Normal,True,+20,-1,+50,+20,+0,+2,+3,+1,+15,+0,+60,+0,+10%,-1,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Smoke_battlestaff.png?52875,Smoke battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Soulflame_horn.png?773dd,Soulflame horn,True,+2,+0,+21,+0,+0,+0,+7,+3,+11,+0,+23,+0,+1%,+0,0.375,5
+weapon_1h,https://oldschool.runescape.wiki/images/Spine.png?640a0,Spine,True,+0,+0,+0,+0,+16,+0,+0,+0,+0,+0,+0,+26,+0%,+0,0.340,3
+weapon_1h,https://oldschool.runescape.wiki/images/Spork.png?8dbbb,Spork,True,+11,+8,-2,+0,+0,+0,+2,+1,+0,+0,+12,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Staff.png?3203e,Staff,False,+0,-1,+7,+4,+0,+2,+3,+1,+4,+0,+3,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Staff_of_air.png?e8969,Staff of air,False,+0,-1,+7,+10,+0,+2,+3,+1,+10,+0,+3,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Staff_of_Balance.png?3203e,Staff of Balance,True,+55,+70,+0,+17,+0,+0,+3,+3,+17,+0,+72,+0,+15%,+0,1.500,4
+weapon_1h,https://oldschool.runescape.wiki/images/Staff_of_Bob_the_Cat.png?717c8,Staff of Bob the Cat,True,+2,-1,+10,+10,+0,+2,+3,+1,+10,+0,+7,+0,+0%,+0,2.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Staff_of_earth.png?717c8,Staff of earth,False,+1,-1,+9,+10,+0,+2,+3,+1,+10,+0,+5,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Staff_of_fire.png?e8969,Staff of fire,False,+3,-1,+9,+10,+0,+2,+3,+1,+10,+0,+6,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Staff_of_Light.png?8dbbb,Staff of Light,True,+55,+70,+0,+17,+0,+0,+3,+3,+17,+0,+72,+0,+15%,+0,1.500,4
+weapon_1h,https://oldschool.runescape.wiki/images/Staff_of_the_Dead.png?3203e,Staff of the Dead,True,+55,+70,+0,+17,+0,+0,+3,+3,+17,+0,+72,+0,+15%,+0,1.500,4
+weapon_1h,https://oldschool.runescape.wiki/images/Staff_of_water.png?4b960,Staff of water,False,+0,-1,+7,+10,+0,+2,+3,+1,+10,+0,+3,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Steam_battlestaff.png?c7153,Steam battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_axe.png?717c8,Steel axe,False,-2,+8,+6,+0,+0,+0,+1,+0,+0,+0,+9,+0,+0%,+0,1.360,5
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_battleaxe.png?f410d,Steel battleaxe,False,-2,+16,+11,+0,+0,+0,+0,+0,+0,-1,+20,+0,+0%,+0,2.721,6
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_crossbow.png?199d1,Steel crossbow,True,+0,+0,+0,+0,+54,+0,+0,+0,+0,+0,+0,+0,+0%,+0,5.000,6
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_dagger%28p%2B%2B%29.png?3203e,Steel dagger#(p++),True,+8,+4,-4,+1,+0,+0,+0,+0,+1,+0,+7,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_dagger.png?f410d,Steel dagger#(unp),False,+8,+4,-4,+1,+0,+0,+0,+0,+1,+0,+7,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_dart%28p%2B%2B%29.png?3203e,Steel dart#(p++),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+3,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_dart.png?3203e,Steel dart#(unp),True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+3,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_hasta%28p%2B%2B%29.png?39839,Steel hasta#(p++),True,+12,+12,+12,+0,+0,-3,-3,-3,+0,-3,+12,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_hasta.png?c7153,Steel hasta#(unp),True,+12,+12,+12,+0,+0,-3,-3,-3,+0,-3,+12,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_knife%28p%2B%2B%29.png?421a5,Steel knife#(p++),True,+0,+0,+0,+0,+8,+0,+0,+0,+0,+0,+0,+7,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_knife.png?421a5,Steel knife#(unp),True,+0,+0,+0,+0,+8,+0,+0,+0,+0,+0,+0,+7,+0%,+0,0.000,3
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_longsword.png?421a5,Steel longsword,False,+9,+14,-2,+0,+0,+0,+3,+2,+0,+0,+16,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_mace.png?421a5,Steel mace,False,+7,-2,+13,+0,+0,+0,+0,+0,+0,+0,+11,+0,+0%,+2,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_pickaxe.png?421a5,Steel pickaxe,False,+8,-2,+6,+0,+0,+0,+1,+0,+0,+0,+9,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_scimitar.png?0395b,Steel scimitar,False,+3,+15,-2,+0,+0,+0,+1,+0,+0,+0,+14,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_sword.png?659e6,Steel sword,False,+11,+8,-2,+0,+0,+0,+2,+1,+0,+0,+12,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_thrownaxe.png?659e6,Steel thrownaxe,True,+0,+0,+0,+0,+8,+0,+0,+0,+0,+0,+0,+11,+0%,+0,0.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Steel_warhammer.png?1a4de,Steel warhammer,False,-4,-4,+18,-4,+0,+0,+0,+0,+0,+0,+18,+0,+0%,+0,1.814,6
+weapon_1h,https://oldschool.runescape.wiki/images/Swift_blade.png?9f3ef,Swift blade,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,1.814,3
+weapon_1h,https://oldschool.runescape.wiki/images/Teacher_wand.png?c1b34,Teacher wand,True,+0,+0,+0,+15,+0,+0,+0,+0,+15,+0,+0,+0,+0%,+0,0.226,4
+weapon_1h,https://oldschool.runescape.wiki/images/Thammaron%27s_sceptre_%28a%29.png?32a5a,Thammaron's sceptre (a)#Charged,True,+0,+0,+0,+15,+0,+0,+0,+0,+20,+0,+0,+0,+0%,+0,0.198,5
+weapon_1h,https://oldschool.runescape.wiki/images/Thammaron%27s_sceptre.png?04f28,Thammaron's sceptre#Charged,True,+0,+0,+0,+15,+0,+0,+0,+0,+20,+0,+0,+0,+0%,+0,0.198,4
+weapon_1h,https://oldschool.runescape.wiki/images/Toktz-xil-ak.png?c9227,Toktz-xil-ak,True,+47,+38,-2,+0,+0,+2,+3,+0,+0,+0,+49,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Toktz-xil-ek.png?04f28,Toktz-xil-ek,True,+16,+48,+0,+0,+0,+0,+0,+0,+0,+0,+39,+0,+0%,+0,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Toktz-xil-ul.png?04f28,Toktz-xil-ul,True,+0,+0,+0,+0,+69,+0,+0,+0,+0,+0,+0,+49,+0%,+0,0.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Tonalztics_of_Ralos.png?942fb,Tonalztics of Ralos#Charged,True,+0,+0,+0,+0,+115,+0,+0,+0,+0,+0,+0,+55,+0%,+2,3.000,7
+weapon_1h,https://oldschool.runescape.wiki/images/Toxic_Staff_of_the_Dead.png?632be,Toxic Staff of the Dead#Charged,True,+55,+70,+0,+25,+0,+0,+3,+3,+17,+0,+72,+0,+15%,+0,1.500,4
+weapon_1h,https://oldschool.runescape.wiki/images/Training_sword.png?62c54,Training sword,False,+4,+3,-2,+0,+0,+0,+2,+1,+0,+0,+5,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Trident_of_the_Seas_%28e%29.png?849c7,Trident of the Seas (e)#Charged,True,+0,+0,+0,+15,+0,+2,+3,+1,+15,+0,+0,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Trident_of_the_Seas_%28full%29.png?03aa0,Trident of the Seas#Charged,True,+0,+0,+0,+15,+0,+2,+3,+1,+15,+0,+0,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Trident_of_the_Swamp_%28e%29.png?849c7,Trident of the Swamp (e)#Charged,True,+0,+0,+0,+25,+0,+2,+3,+1,+15,+0,+0,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Trident_of_the_Swamp.png?79f0d,Trident of the Swamp#Charged,True,+0,+0,+0,+25,+0,+2,+3,+1,+15,+0,+0,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Twinflame_staff.png?12e98,Twinflame staff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+22,+0,+0%,+0,2.267,6
+weapon_1h,https://oldschool.runescape.wiki/images/Tzhaar-ket-em.png?fc550,Tzhaar-ket-em,True,-4,-4,+62,+0,+0,+0,+0,+0,+0,+0,+56,+0,+0%,+0,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Ursine_chainmace.png?26d89,Ursine chainmace#Charged,True,+53,-2,+71,+0,+0,+0,+0,+0,+0,+0,+74,+0,+0%,+2,2.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Viggora%27s_chainmace_%28u%29.png?bc0cd,Viggora's chainmace#Uncharged,True,+53,-2,+67,+0,+0,+0,+1,+0,+0,+0,+66,+0,+0%,+2,2.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Void_knight_mace.png?75a26,Void knight mace#Normal,True,+22,+0,+41,+8,+0,+2,+2,+2,+2,+2,+38,+0,+0%,+6,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/Voidwaker.png?90ef4,Voidwaker,True,+70,+80,-2,+5,+0,+0,+1,+0,+2,+0,+80,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Volatile_Nightmare_staff.png?75a26,Volatile Nightmare staff,True,+0,+0,+0,+16,+0,+0,+0,+0,+14,+0,+0,+0,+15%,+0,1.600,5
+weapon_1h,https://oldschool.runescape.wiki/images/Warped_sceptre.png?5051f,Warped sceptre#Charged,True,+0,+0,+0,+12,+0,+2,+3,+1,+12,+0,+0,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Water_battlestaff.png?f0e76,Water battlestaff,True,+7,-1,+28,+12,+0,+2,+3,+1,+12,+0,+35,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Western_banner_1.png?03048,Western banner 1,True,+12,+12,+12,+0,+0,+1,+1,+0,+0,+0,+12,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Western_banner_2.png?03048,Western banner 2,True,+15,+15,+15,+0,+0,+1,+1,+0,+0,+0,+16,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Western_banner_3.png?03048,Western banner 3,True,+17,+17,+17,+0,+0,+1,+1,+0,+0,+0,+18,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/Western_banner_4.png?03048,Western banner 4,True,+24,+24,+24,+0,+0,+1,+1,+0,+0,+0,+28,+0,+0%,+0,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/White_battleaxe.png?f5d8b,White battleaxe,True,-2,+20,+15,+0,+0,+0,+0,+0,+0,-1,+24,+0,+0%,+1,2.721,6
+weapon_1h,https://oldschool.runescape.wiki/images/White_dagger%28p%2B%2B%29.png?db3e5,White dagger#(p++),True,+10,+5,-4,+1,+0,+0,+0,+0,+1,+0,+7,+0,+0%,+1,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/White_dagger.png?db3e5,White dagger#(unp),True,+10,+5,-4,+1,+0,+0,+0,+0,+1,+0,+7,+0,+0%,+1,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/White_longsword.png?133c4,White longsword,True,+13,+18,-2,+0,+0,+0,+3,+2,+0,+0,+16,+0,+0%,+1,1.814,5
+weapon_1h,https://oldschool.runescape.wiki/images/White_mace.png?133c4,White mace,True,+8,-2,+16,+0,+0,+0,+0,+0,+0,+0,+13,+0,+0%,+3,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/White_magic_staff.png?133c4,White magic staff,True,+2,-1,+10,+10,+0,+2,+3,+1,+10,+0,+7,+0,+0%,+1,2.267,5
+weapon_1h,https://oldschool.runescape.wiki/images/White_scimitar.png?2dc8c,White scimitar,True,+4,+19,-2,+0,+0,+0,+1,+0,+0,+0,+14,+0,+0%,+1,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/White_sword.png?2dc8c,White sword,True,+14,+10,-2,+0,+0,+0,+2,+1,+0,+0,+12,+0,+0%,+1,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/White_warhammer.png?2ff77,White warhammer,True,-4,-4,+22,-4,+0,+0,+0,+0,+0,+0,+22,+0,+0%,+1,1.814,6
+weapon_1h,https://oldschool.runescape.wiki/images/Wilderness_sword_1.png?b56cf,Wilderness sword 1,True,+6,+4,-2,+0,+0,+0,+2,+1,+0,+0,+7,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Wilderness_sword_2.png?b56cf,Wilderness sword 2,True,+11,+8,-2,+0,+0,+0,+2,+1,+0,+0,+12,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Wilderness_sword_3.png?b56cf,Wilderness sword 3,True,+16,+11,-2,+0,+0,+0,+2,+1,+0,+0,+17,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Wilderness_sword_4.png?b56cf,Wilderness sword 4,True,+23,+18,-2,+0,+0,+0,+2,+1,+0,+0,+24,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Willow_blackjack.png?b56cf,Willow blackjack,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+8,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Willow_blackjack%28d%29.png?b56cf,Willow blackjack(d),True,+0,+0,+0,+0,+0,+0,+0,+8,+0,+0,+8,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Willow_blackjack%28o%29.png?b56cf,Willow blackjack(o),True,+0,+0,+8,+0,+0,+0,+0,+0,+0,+0,+8,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Wolfbane.png?8424b,Wolfbane,True,+11,+5,-4,+1,+0,+0,+0,+0,+1,+0,+10,+0,+0%,+5,0.453,4
+weapon_1h,https://oldschool.runescape.wiki/images/Wooden_spoon.png?819f7,Wooden spoon,True,+4,+5,-2,+0,+0,+0,+3,+2,+0,+0,+7,+0,+0%,+0,0.453,5
+weapon_1h,https://oldschool.runescape.wiki/images/Wooden_sword.png?18607,Wooden sword,True,+4,+3,-2,+0,+0,+0,+2,+1,+0,+0,+5,+0,+0%,+0,1.814,4
+weapon_1h,https://oldschool.runescape.wiki/images/Zamorak_banner.png?37c64,Zamorak banner#Minigame,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Zamorak_crozier.png?37c64,Zamorak crozier,True,+7,-1,+25,+10,+0,+2,+3,+1,+10,+0,+32,+0,+0%,+6,2.000,5
+weapon_1h,https://oldschool.runescape.wiki/images/Zamorak_staff.png?37c64,Zamorak staff,True,-1,-1,+6,+6,+0,+2,+3,+1,+6,+0,+2,+0,+0%,+0,2.267,4
+weapon_1h,https://oldschool.runescape.wiki/images/Zamorakian_hasta.png?37c64,Zamorakian hasta,True,+85,+65,+65,+0,+0,+13,+13,+12,+0,+13,+75,+0,+0%,+2,3.000,4
+weapon_1h,https://oldschool.runescape.wiki/images/Zaryte_crossbow.png?d99b1,Zaryte crossbow,True,+0,+0,+0,+0,+110,+14,+14,+12,+15,+16,+0,+0,+0%,+1,6.001,6
+weapon_1h,https://oldschool.runescape.wiki/images/Zombie_axe.png?bd219,Zombie axe,True,-3,+105,+90,+0,+0,-1,+0,+0,+0,-1,+107,+0,+0%,+0,2.721,5
+weapon_1h,https://oldschool.runescape.wiki/images/Zombie_head_%28Treasure_Trails%29.png?8abb8,Zombie head (Treasure Trails),True,-4,-4,+10,-4,+0,+0,+0,+0,+0,+0,+8,+0,+0%,+0,1.814,6

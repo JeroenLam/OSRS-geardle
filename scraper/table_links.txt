@@ -1,0 +1,12 @@
+ammunition,https://oldschool.runescape.wiki/w/Ammunition_slot_table
+body,https://oldschool.runescape.wiki/w/Body_slot_table
+cape,https://oldschool.runescape.wiki/w/Cape_slot_table
+feet,https://oldschool.runescape.wiki/w/Feet_slot_table
+gloves,https://oldschool.runescape.wiki/w/Hands_slot_table
+helmhttps://oldschool.runescape.wiki/w/Head_slot_table
+legs,https://oldschool.runescape.wiki/w/Legs_slot_table
+necklacehttps://oldschool.runescape.wiki/w/Neck_slot_table
+ring,https://oldschool.runescape.wiki/w/Ring_slot_table
+shield,https://oldschool.runescape.wiki/w/Shield_slot_table
+weapon_2h,https://oldschool.runescape.wiki/w/Two-handed_slot_table
+weapon_1h,https://oldschool.runescape.wiki/w/One-handed_slot_table
