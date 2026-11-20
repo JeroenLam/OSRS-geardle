@@ -3,6 +3,7 @@ import equipmentCsv from '../../combined_equipment.csv?raw';
 import examinesCsv from '../../item_examines.csv?raw';
 import monstersCsv from '../../monsters.csv?raw';
 import spellsCsv from '../../spells.csv?raw';
+import questsCsv from '../../quests.csv?raw';
 
 /** text: exact match · number: higher/lower arrows · list: set match with partial overlap */
 export type ColumnKind = 'text' | 'number' | 'list';
@@ -30,7 +31,7 @@ export interface Item {
   values: Record<string, Value>;
 }
 
-export type GameId = 'gear' | 'monsters' | 'spells';
+export type GameId = 'gear' | 'monsters' | 'spells' | 'quests';
 
 export interface Game {
   id: GameId;
@@ -100,6 +101,40 @@ const SPELL_COLUMNS: Column[] = [
   { key: 'extra_items', label: 'Extra item', title: 'Required item besides runes', kind: 'list' },
   { key: 'is_member', label: 'P2P', title: 'Members spell', kind: 'text' },
   { key: 'exp', label: 'XP', title: 'Magic experience per cast', kind: 'number' },
+  { key: 'release_year', label: 'Released', title: 'Release year', kind: 'number' },
+];
+
+// Scraped as 1-based ranks so the game can show higher/lower arrows
+const DIFFICULTIES = ['Novice', 'Intermediate', 'Experienced', 'Master', 'Grandmaster'];
+const LENGTHS = ['Very Short', 'Short', 'Medium', 'Long', 'Very Long'];
+
+const QUEST_COLUMNS: Column[] = [
+  {
+    key: 'difficulty',
+    label: 'Difficulty',
+    title: 'Official difficulty',
+    kind: 'number',
+    format: (v) => DIFFICULTIES[v - 1] ?? String(v),
+    emptyText: 'Special',
+  },
+  {
+    key: 'length',
+    label: 'Length',
+    title: 'Official length',
+    kind: 'number',
+    format: (v) => LENGTHS[v - 1] ?? String(v),
+  },
+  { key: 'skills', label: 'Skills', title: 'Skills with a level requirement', kind: 'list' },
+  { key: 'highest_skill', label: 'Top skill lvl', title: 'Highest skill level required', kind: 'number' },
+  {
+    key: 'precursor_quests',
+    label: 'Pre-quests',
+    title: 'Number of quests (and miniquests) that must be completed first, including nested ones',
+    kind: 'number',
+  },
+  { key: 'has_enemies', label: 'Enemies', title: 'Has enemies to defeat', kind: 'text' },
+  { key: 'is_member', label: 'P2P', title: 'Members quest', kind: 'text' },
+  { key: 'series', label: 'Series', title: 'Quest series', kind: 'text', emptyText: 'None' },
   { key: 'release_year', label: 'Released', title: 'Release year', kind: 'number' },
 ];
 
@@ -198,8 +233,23 @@ function spellGame(): Game {
   };
 }
 
+function questGame(): Game {
+  const items = loadItems(parseCsv(questsCsv), QUEST_COLUMNS, new Map());
+  return {
+    id: 'quests',
+    title: 'Quests',
+    noun: 'quest',
+    columns: QUEST_COLUMNS,
+    items,
+    targets: items,
+    keyPrefix: 'geardle-quests',
+    hintLabel: 'Description',
+  };
+}
+
 export const GAMES: Record<GameId, Game> = {
   gear: gearGame(),
   monsters: monsterGame(),
   spells: spellGame(),
+  quests: questGame(),
 };
