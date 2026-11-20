@@ -4,7 +4,7 @@ OSRS data comes from the [OSRS Wiki](https://oldschool.runescape.wiki/) and RS3 
 
 ```bash
 uv run scrape.py            # equipment slot tables -> ../output/*.csv
-uv run combine_csv.py       # ../output/*.csv -> combined_equipment.csv (copy it to the repo root)
+uv run combine_csv.py       # ../output/*.csv -> ../combined_equipment.csv (skips cosmetic copies)
 uv run scrape_examines.py   # examine text for every item in ../combined_equipment.csv -> ../item_examines.csv
 uv run scrape_monsters.py   # monster infoboxes -> ../monsters.csv
 uv run scrape_spells.py     # spell infoboxes -> ../spells.csv
@@ -25,11 +25,15 @@ For spells, the list comes from the `infobox_spell` bucket and the details are p
 
 For quests, difficulty, length, requirements, enemies and description come from the `quest` bucket; members, series, release date and image from each page's `{{Infobox Quest}}`. Only pages in Category:Quests are kept (no miniquests or Recipe for Disaster subquests), and unreleased quests (no official length) are skipped. Skill requirements are read from the wiki's `data-skill`/`data-level` tags. The prerequisite count is the number of distinct quests and miniquests linked anywhere in the nested requirement list. Difficulty and length are stored as 1-based ranks so the game can show higher/lower arrows. The quest's own name is replaced with "[this quest]" in its description.
 
+## Cosmetic copies
+
+Both gear datasets leave out cosmetic-only copies of an item (`cosmetic.py`): trimmed, gold-trimmed, heraldic, ornament, coloured or god-themed versions such as "Rune platebody (g)", "Amulet of fury (or)", "Obsidian cape (r)" or "Gilded platebody", **only when every combat stat is identical** to the plain item. Anything with different stats or effects stays, e.g. OSRS god rune armour (+1 prayer), trimmed skill capes (+4 prayer), enchanted bolts (e), imbued items (i) and RS3's Amulet of fury (t). Members status, weight and release year are ignored in the comparison.
+
 ## RS3
 
 Both wikis run the same bucket API, so `wiki_bucket.py` takes the wiki as a parameter. Release years for RS3 come from the wiki's `release_date` bucket (`rs3_common.py`).
 
-- **Gear**: `infobox_bonuses` joined with `infobox_item` (image, examine, members). One row per item page; cosmetic recolours, "Lucky" copies, Dungeoneering class/tier copies and items without any stats are skipped. Untiered items with stats (most jewellery) are kept with tier 0. Word attack speeds ("fastest", "average", ...) are converted to ticks.
+- **Gear**: `infobox_bonuses` joined with `infobox_item` (image, examine, members). One row per item page; cosmetic recolours, "Lucky" and "Augmented" (Invention) copies, Dungeoneering class/tier copies and items without any stats are skipped. Untiered items with stats (most jewellery) are kept with tier 0. Word attack speeds ("fastest", "average", ...) are converted to ticks.
 - **Monsters**: `infobox_monster`, using the most complete version of each page. Dungeoneering monsters, familiars and historical versions are skipped. The bucket has no images, so each page's main image (PageImages API) is used. The wiki leaves size empty for 1x1 monsters, so empty size is stored as 1. Bosses have no slayer category on RS3, so RS3 answers don't require one.
 - **Spells**: `infobox_spell` JSON (runes with amounts, element, description). Spells from the Dungeoneering-only spellbook are skipped. Combat spell XP depends on damage, so it is left empty ("Varies").
 - **Quests**: `infobox_quest` (difficulty, series, Age, members, release) and `quest` (length, skill requirements, enemies); prerequisite chains come from the wiki's `Module:Questreq/data`, and the description from each page's "Official description" section. Miniquests, subquests and removed quests are skipped. In-between lengths ("Short to Medium") are stored as half steps.

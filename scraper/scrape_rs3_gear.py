@@ -1,13 +1,16 @@
 """Scrape RS3 equipment from runescape.wiki into ../rs3/equipment.csv.
 
 One row per item page (charged/unbound/degraded versions collapse to the
-first version). Cosmetic recolours, "Lucky" copies, items with no stats and the
-Dungeoneering class/tier copies are skipped.
+first version). Cosmetic recolours (the wiki's own flag, plus trimmed/gilded/
+coloured copies with the same stats as the plain item, see cosmetic.py),
+"Lucky" and "Augmented" (Invention) copies, items with no stats and the Dungeoneering class/tier copies
+are skipped.
 """
 
 import re
 from collections import defaultdict
 
+from cosmetic import cosmetic_copies
 from rs3_common import load_release_years, release_year_for, write_csv
 from wiki_bucket import RS3_WIKI, clean_text, file_url, query_bucket
 
@@ -119,7 +122,7 @@ def main():
         if (
             not has_stats(row)
             or "is_cosmetic_recolour" in row
-            or page.startswith("Lucky ")
+            or page.startswith(("Lucky ", "Augmented "))
             or EXCLUDED_PAGE.search(page)
         ):
             continue
@@ -157,6 +160,12 @@ def main():
                 "examine": clean_text(item.get("examine")),
             }
         )
+
+    # Drop recolours/trims such as "Rune platebody (g)" whose stats match the plain item
+    stat_keys = [c for c in COLUMNS if c not in ("name", "image", "is_member", "release_year", "examine")]
+    cosmetic = cosmetic_copies(rows, stat_keys)
+    print(f"Skipping {len(cosmetic)} cosmetic copies (e.g. {', '.join(sorted(cosmetic)[:3])})")
+    rows = [r for r in rows if r["name"] not in cosmetic]
 
     write_csv("equipment.csv", COLUMNS, rows)
 
