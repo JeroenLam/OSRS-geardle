@@ -36,6 +36,8 @@ export type GameId = 'gear' | 'monsters' | 'spells' | 'quests';
 export interface Game {
   id: GameId;
   title: string;
+  /** Name shown as the page heading and tab title, e.g. "Geardle" */
+  gameName: string;
   /** Singular noun used in UI text, e.g. "item" */
   noun: string;
   columns: Column[];
@@ -191,7 +193,7 @@ function loadItems(
 function gearGame(): Game {
   const examines = new Map(parseCsv(examinesCsv).map((r) => [r.name, r.examine]));
   const items = loadItems(parseCsv(equipmentCsv), GEAR_COLUMNS, examines);
-  return { id: 'gear', title: 'Gear', noun: 'item', columns: GEAR_COLUMNS, items, targets: items, keyPrefix: 'geardle', hintLabel: 'Examine' };
+  return { id: 'gear', title: 'Gear', gameName: 'Geardle', noun: 'item', columns: GEAR_COLUMNS, items, targets: items, keyPrefix: 'geardle', hintLabel: 'Examine' };
 }
 
 function monsterGame(): Game {
@@ -210,6 +212,7 @@ function monsterGame(): Game {
   return {
     id: 'monsters',
     title: 'Monsters',
+    gameName: 'NPCdle',
     noun: 'monster',
     columns: MONSTER_COLUMNS,
     items,
@@ -224,6 +227,7 @@ function spellGame(): Game {
   return {
     id: 'spells',
     title: 'Spells',
+    gameName: 'Spelldle',
     noun: 'spell',
     columns: SPELL_COLUMNS,
     items,
@@ -238,6 +242,7 @@ function questGame(): Game {
   return {
     id: 'quests',
     title: 'Quests',
+    gameName: 'Questdle',
     noun: 'quest',
     columns: QUEST_COLUMNS,
     items,
