@@ -5,13 +5,14 @@ const MAX_RESULTS = 15;
 export interface AutocompleteOptions {
   input: HTMLInputElement;
   list: HTMLUListElement;
-  items: Item[];
+  /** Returns the current candidate list (it changes when switching games) */
+  getItems: () => Item[];
   isExcluded: (item: Item) => boolean;
   onSelect: (item: Item) => void;
 }
 
 export function setupAutocomplete(opts: AutocompleteOptions): { close: () => void } {
-  const { input, list, items, isExcluded, onSelect } = opts;
+  const { input, list, getItems, isExcluded, onSelect } = opts;
   let matches: Item[] = [];
   let active = -1;
 
@@ -40,7 +41,7 @@ export function setupAutocomplete(opts: AutocompleteOptions): { close: () => voi
 
     const starts: Item[] = [];
     const contains: Item[] = [];
-    for (const item of items) {
+    for (const item of getItems()) {
       if (isExcluded(item)) continue;
       const name = item.displayName.toLowerCase();
       if (name.startsWith(query)) starts.push(item);
@@ -83,7 +84,7 @@ export function setupAutocomplete(opts: AutocompleteOptions): { close: () => voi
       highlight((active - 1 + matches.length) % matches.length);
     } else if (e.key === 'Enter') {
       e.preventDefault();
-      const exact = items.find(
+      const exact = getItems().find(
         (it) => !isExcluded(it) && it.displayName.toLowerCase() === input.value.trim().toLowerCase(),
       );
       const pick = matches[active] ?? exact;
