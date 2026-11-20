@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="osrs">
 
 <head>
     <meta charset="UTF-8" />
@@ -7,11 +7,19 @@
     <meta name="theme-color" content="#1e1b16" />
     <link rel="icon" href="./icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Silkscreen&display=swap"
+        rel="stylesheet" />
     <title>OSRS Geardle</title>
 </head>
 
 <body>
     <header>
+        <nav class="tabs versions" aria-label="Game version">
+            <button type="button" data-version="osrs" class="tab version-tab active">OSRS</button>
+            <button type="button" data-version="rs3" class="tab version-tab">RS3</button>
+        </nav>
         <h1>OSRS Geardle</h1>
         <nav class="tabs games">
             <button type="button" data-game="gear" class="tab game-tab active">Gear</button>
