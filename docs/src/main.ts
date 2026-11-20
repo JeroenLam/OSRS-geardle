@@ -19,6 +19,7 @@ const thead = document.querySelector<HTMLTableSectionElement>('#guesses thead')!
 const tbody = document.querySelector<HTMLTableSectionElement>('#guesses tbody')!;
 const banner = document.querySelector<HTMLDivElement>('#banner')!;
 const hint = document.querySelector<HTMLDivElement>('#hint')!;
+const heading = document.querySelector<HTMLHeadingElement>('h1')!;
 const newGameBtn = document.querySelector<HTMLButtonElement>('#new-game')!;
 const giveUpBtn = document.querySelector<HTMLButtonElement>('#give-up')!;
 const footer = document.querySelector<HTMLElement>('#footer')!;
@@ -175,6 +176,8 @@ function render() {
     seedValue.textContent = seed;
     modeTabs.forEach((t) => t.classList.toggle('active', t.dataset.mode === mode));
     gameTabs.forEach((t) => t.classList.toggle('active', t.dataset.game === game.id));
+    heading.textContent = `OSRS ${game.gameName}`;
+    document.title = `OSRS ${game.gameName}`;
     footer.textContent = `${game.items.length} ${game.noun}s · Data from the Old School RuneScape Wiki`;
 }
 

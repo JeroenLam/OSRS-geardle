@@ -1,6 +1,6 @@
 # OSRS Geardle
 
-A Wordle-style guessing game for Old School RuneScape equipment, monsters, spells and quests.
+A Wordle-style guessing game for Old School RuneScape equipment (Geardle), monsters (NPCdle), spells (Spelldle) and quests (Questdle).
 
 **Play it here: https://jeroenlam.github.io/OSRS-geardle/**
 
