@@ -3,7 +3,7 @@
 One row per item page (charged/unbound/degraded versions collapse to the
 first version). Cosmetic recolours (the wiki's own flag, plus trimmed/gilded/
 coloured copies with the same stats as the plain item, see cosmetic.py),
-"Lucky" copies, items with no stats and the Dungeoneering class/tier copies
+"Lucky" and "Augmented" (Invention) copies, items with no stats and the Dungeoneering class/tier copies
 are skipped.
 """
 
@@ -122,7 +122,7 @@ def main():
         if (
             not has_stats(row)
             or "is_cosmetic_recolour" in row
-            or page.startswith("Lucky ")
+            or page.startswith(("Lucky ", "Augmented "))
             or EXCLUDED_PAGE.search(page)
         ):
             continue
