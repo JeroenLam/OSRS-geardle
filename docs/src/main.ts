@@ -68,9 +68,9 @@ function loadDaily(): Item[] {
 
 function formatValue(col: Column, v: Value): string {
     if (col.emptyIsUnknown && (v === null || v === '' || (Array.isArray(v) && v.length === 0))) return 'Unknown';
-    if (Array.isArray(v)) return v.length ? v.join(', ') : 'None';
-    if (v === null || v === '') return col.key === 'elemental_weakness' ? 'None' : '—';
-    if (col.key === 'is_member') return v === 'True' ? 'Yes' : 'No';
+    if (Array.isArray(v)) return v.length ? v.join(', ') : (col.emptyText ?? 'None');
+    if (v === null || v === '') return col.emptyText ?? '—';
+    if (col.key === 'is_member') return v === 'True' || v === 'Yes' ? 'Yes' : 'No';
     if (col.key === 'equipment_slot') return String(v).replace(/_/g, ' ');
     if (typeof v !== 'number') return String(v);
     return (col.format ? col.format(v) : String(v)) + (col.suffix ?? '');
@@ -149,13 +149,13 @@ function renderHint() {
     }
     if (remaining > 0 && !isOver()) {
         hint.className = 'hint locked';
-        hint.textContent = `Examine hint unlocks after ${remaining} more wrong ${remaining === 1 ? 'guess' : 'guesses'}.`;
+        hint.textContent = `${game.hintLabel} hint unlocks after ${remaining} more wrong ${remaining === 1 ? 'guess' : 'guesses'}.`;
     } else {
         hint.className = 'hint';
         const label = document.createElement('strong');
-        label.textContent = 'Examine: ';
+        label.textContent = `${game.hintLabel}: `;
         const text = document.createElement('span');
-        text.textContent = target.examine ? `“${target.examine}”` : `No examine text available for this ${game.noun}.`;
+        text.textContent = target.examine ? `“${target.examine}”` : `No ${game.hintLabel.toLowerCase()} available for this ${game.noun}.`;
         hint.replaceChildren(label, text);
     }
     hint.hidden = false;

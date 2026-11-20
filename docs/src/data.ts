@@ -2,6 +2,7 @@ import Papa from 'papaparse';
 import equipmentCsv from '../../combined_equipment.csv?raw';
 import examinesCsv from '../../item_examines.csv?raw';
 import monstersCsv from '../../monsters.csv?raw';
+import spellsCsv from '../../spells.csv?raw';
 
 /** text: exact match · number: higher/lower arrows · list: set match with partial overlap */
 export type ColumnKind = 'text' | 'number' | 'list';
@@ -15,6 +16,8 @@ export interface Column {
   format?: (v: number) => string;
   /** Empty means "the wiki has no data", shown as unknown instead of being compared */
   emptyIsUnknown?: boolean;
+  /** Text shown for an empty value (default "—", or "None" for lists) */
+  emptyText?: string;
 }
 
 export type Value = string | number | string[] | null;
@@ -27,7 +30,7 @@ export interface Item {
   values: Record<string, Value>;
 }
 
-export type GameId = 'gear' | 'monsters';
+export type GameId = 'gear' | 'monsters' | 'spells';
 
 export interface Game {
   id: GameId;
@@ -40,6 +43,8 @@ export interface Game {
   targets: Item[];
   /** Prefix for daily/practice hashing and localStorage keys */
   keyPrefix: string;
+  /** Name of the text revealed as a hint, e.g. "Examine" */
+  hintLabel: string;
 }
 
 /** Number of wrong guesses before the examine text is revealed. */
@@ -74,7 +79,7 @@ const MONSTER_COLUMNS: Column[] = [
   { key: 'size', label: 'Size', title: 'Size (tiles)', kind: 'number', format: (v) => `${v}x${v}` },
   { key: 'attack_style', label: 'Attack style', title: 'Attack style(s)', kind: 'list' },
   { key: 'attack_speed', label: 'Speed', title: 'Attack speed (ticks)', kind: 'number' },
-  { key: 'elemental_weakness', label: 'Weakness', title: 'Elemental weakness', kind: 'text' },
+  { key: 'elemental_weakness', label: 'Weakness', title: 'Elemental weakness', kind: 'text', emptyText: 'None' },
   { key: 'slayer_category', label: 'Slayer', title: 'Slayer category', kind: 'list' },
   {
     key: 'league_region',
@@ -83,6 +88,19 @@ const MONSTER_COLUMNS: Column[] = [
     kind: 'list',
     emptyIsUnknown: true,
   },
+];
+
+const SPELL_COLUMNS: Column[] = [
+  { key: 'spellbook', label: 'Spellbook', title: 'Spellbook', kind: 'text' },
+  { key: 'level', label: 'Level', title: 'Magic level required', kind: 'number' },
+  { key: 'type', label: 'Type', title: 'Combat, utility or teleport', kind: 'text' },
+  { key: 'element', label: 'Element', title: 'Element (combat spells)', kind: 'text', emptyText: 'None' },
+  { key: 'runes', label: 'Runes', title: 'Runes needed', kind: 'list' },
+  { key: 'rune_count', label: 'Rune total', title: 'Total number of runes per cast', kind: 'number' },
+  { key: 'extra_items', label: 'Extra item', title: 'Required item besides runes', kind: 'list' },
+  { key: 'is_member', label: 'P2P', title: 'Members spell', kind: 'text' },
+  { key: 'exp', label: 'XP', title: 'Magic experience per cast', kind: 'number' },
+  { key: 'release_year', label: 'Released', title: 'Release year', kind: 'number' },
 ];
 
 function parseCsv(text: string): Record<string, string>[] {
@@ -128,7 +146,7 @@ function loadItems(
       name,
       displayName: toDisplayName(name),
       image: row.image ?? '',
-      examine: examines.get(name) ?? row.examine?.trim() ?? '',
+      examine: examines.get(name) ?? (row.examine || row.description || '').trim(),
       values,
     });
   }
@@ -138,7 +156,7 @@ function loadItems(
 function gearGame(): Game {
   const examines = new Map(parseCsv(examinesCsv).map((r) => [r.name, r.examine]));
   const items = loadItems(parseCsv(equipmentCsv), GEAR_COLUMNS, examines);
-  return { id: 'gear', title: 'Gear', noun: 'item', columns: GEAR_COLUMNS, items, targets: items, keyPrefix: 'geardle' };
+  return { id: 'gear', title: 'Gear', noun: 'item', columns: GEAR_COLUMNS, items, targets: items, keyPrefix: 'geardle', hintLabel: 'Examine' };
 }
 
 function monsterGame(): Game {
@@ -162,10 +180,26 @@ function monsterGame(): Game {
     items,
     targets,
     keyPrefix: 'geardle-monsters',
+    hintLabel: 'Examine',
+  };
+}
+
+function spellGame(): Game {
+  const items = loadItems(parseCsv(spellsCsv), SPELL_COLUMNS, new Map());
+  return {
+    id: 'spells',
+    title: 'Spells',
+    noun: 'spell',
+    columns: SPELL_COLUMNS,
+    items,
+    targets: items,
+    keyPrefix: 'geardle-spells',
+    hintLabel: 'Description',
   };
 }
 
 export const GAMES: Record<GameId, Game> = {
   gear: gearGame(),
   monsters: monsterGame(),
+  spells: spellGame(),
 };
