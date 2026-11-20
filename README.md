@@ -10,10 +10,10 @@ Pick **Gear** or **Monsters**, then type a name and pick it from the suggestions
 
 - 🟩 **Green**: the value matches
 - 🟧 **Orange ▲ / ▼**: the hidden item's value is higher / lower
-- 🟨 **Dark yellow**: partial match: some, but not all, attack styles or slayer categories overlap
+- 🟨 **Dark yellow**: partial match: some, but not all, attack styles, slayer categories or regions overlap
 - 🟥 **Red**: the value doesn't match (slot, members, weakness, ...)
 
-Gear compares equipment slot, members, all combat bonuses, weight and attack speed. Monsters compare combat level, release year, size, attack style, attack speed, elemental weakness and slayer category.
+Gear compares equipment slot, members, all combat bonuses, weight and attack speed. Monsters compare combat level, release year, size, attack style, attack speed, elemental weakness, slayer category and Leagues region. Monsters with no region data on the wiki show a grey "Unknown" region.
 
 After 10 wrong guesses, the hidden item's or monster's examine text is revealed as a hint.
 

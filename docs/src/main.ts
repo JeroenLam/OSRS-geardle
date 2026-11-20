@@ -67,6 +67,7 @@ function loadDaily(): Item[] {
 }
 
 function formatValue(col: Column, v: Value): string {
+    if (col.emptyIsUnknown && (v === null || v === '' || (Array.isArray(v) && v.length === 0))) return 'Unknown';
     if (Array.isArray(v)) return v.length ? v.join(', ') : 'None';
     if (v === null || v === '') return col.key === 'elemental_weakness' ? 'None' : '—';
     if (col.key === 'is_member') return v === 'True' ? 'Yes' : 'No';
@@ -111,8 +112,8 @@ function renderRow(item: Item): HTMLTableRowElement {
     tr.append(...itemCell(item));
     game.columns.forEach((col, i) => {
         const td = document.createElement('td');
-        td.className = `cell ${results[i]}`;
-        td.title = col.title;
+        td.className = `cell ${results[i]}${col.kind === 'list' ? ' list' : ''}`;
+        td.title = results[i] === 'unknown' ? `${col.title}: no data on the wiki` : col.title;
         td.textContent = formatValue(col, item.values[col.key]) + (ARROWS[results[i]] ?? '');
         tr.append(td);
     });
