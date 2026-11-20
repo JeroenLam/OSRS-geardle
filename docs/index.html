@@ -13,6 +13,10 @@
 <body>
     <header>
         <h1>OSRS Geardle</h1>
+        <nav class="tabs games">
+            <button type="button" data-game="gear" class="tab game-tab active">Gear</button>
+            <button type="button" data-game="monsters" class="tab game-tab">Monsters</button>
+        </nav>
         <nav class="tabs">
             <button type="button" data-mode="daily" class="tab active">Daily</button>
             <button type="button" data-mode="practice" class="tab">Practice</button>
@@ -40,10 +44,13 @@
 
         <div id="banner" class="banner" hidden></div>
 
+        <div id="hint" class="hint" hidden></div>
+
         <div class="legend">
             <span class="cell equal">Match</span>
             <span class="cell higher">Target is higher ▲</span>
             <span class="cell lower">Target is lower ▼</span>
+            <span class="cell partial">Partial match</span>
             <span class="cell different">Wrong</span>
         </div>
 

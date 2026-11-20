@@ -7,6 +7,7 @@
     --accent: #ff981f;
     --equal: #2e7d32;
     --near: #e07b00;
+    --partial: #8a6d00;
     --wrong: #b3261e;
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
     color: var(--text);
@@ -59,6 +60,10 @@ button {
 
 button:hover {
     border-color: var(--accent);
+}
+
+.games .tab {
+    font-weight: 600;
 }
 
 .tab.active {
@@ -190,6 +195,26 @@ main {
     object-fit: contain;
 }
 
+.hint {
+    margin: 0 auto 1rem;
+    padding: 0.6rem 1rem;
+    max-width: 700px;
+    text-align: center;
+    background: var(--panel);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+}
+
+.hint strong {
+    color: var(--accent);
+}
+
+.hint.locked {
+    color: var(--muted);
+    border-color: var(--border);
+    font-size: 0.85rem;
+}
+
 .legend {
     display: flex;
     flex-wrap: wrap;
@@ -274,6 +299,10 @@ td.img img {
 .cell.higher,
 .cell.lower {
     background: var(--near);
+}
+
+.cell.partial {
+    background: var(--partial);
 }
 
 .cell.different {
