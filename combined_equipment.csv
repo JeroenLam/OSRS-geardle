@@ -220,9 +220,7 @@ body,https://oldschool.runescape.wiki/images/Fremennik_red_shirt.png?c83d6,Freme
 body,https://oldschool.runescape.wiki/images/Fremennik_robe.png?c83d6,Fremennik robe,True,+0,+0,+0,+0,+0,+0,+2,+2,+0,+0,+0,+0,+0%,+0,0.907,
 body,https://oldschool.runescape.wiki/images/Frog-leather_body.png?16f62,Frog-leather body,True,+0,+0,+0,-5,+10,+23,+26,+30,+15,+32,+0,+0,+0%,+0,5.000,
 body,https://oldschool.runescape.wiki/images/Ghostly_robe_%28top%29.png?d2266,Ghostly robe (top),True,+0,+0,+0,+5,+0,+0,+0,+0,+5,+0,+0,+0,+0%,+0,0.001,
-body,https://oldschool.runescape.wiki/images/Gilded_chainbody.png?bbd7a,Gilded chainbody,False,+0,+0,+0,-15,+0,+63,+72,+78,-3,+65,+0,+0,+0%,+0,6.803,
 body,https://oldschool.runescape.wiki/images/Gilded_d%27hide_body.png?fe558,Gilded d'hide body,False,+0,+0,+0,-15,+15,+40,+32,+45,+20,+40,+0,+0,+0%,+0,6.000,
-body,https://oldschool.runescape.wiki/images/Gilded_platebody.png?fe558,Gilded platebody,False,+0,+0,+0,-30,-15,+82,+80,+72,-6,+80,+0,+0,+0%,+0,9.979,
 body,https://oldschool.runescape.wiki/images/Golden_apron.png?923a0,Golden apron,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.453,
 body,https://oldschool.runescape.wiki/images/Graahk_top.png?3d117,Graahk top,True,+0,+0,+0,+0,+0,+10,+15,+19,+0,+12,+0,+0,+0%,+0,0.226,
 body,https://oldschool.runescape.wiki/images/Graceful_top.png?99c22,Graceful top#Worn,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,-5.000,
@@ -329,7 +327,6 @@ body,https://oldschool.runescape.wiki/images/Zealot%27s_robe_top.png?8abb8,Zealo
 cape,https://oldschool.runescape.wiki/images/3rd_Age_cloak.png?6fa46,3rd Age cloak,True,+0,+0,+0,+0,+0,+9,+9,+9,+9,+9,+0,+0,+0%,+5,0.005,
 cape,https://oldschool.runescape.wiki/images/3rd_Age_druidic_cloak.png?6fa46,3rd Age druidic cloak,True,+0,+0,+0,+1,+0,+3,+3,+3,+3,+3,+0,+0,+0%,+3,0.400,
 cape,https://oldschool.runescape.wiki/images/Accumulator_max_cape.png?727e9,Accumulator max cape,True,+0,+0,+0,+0,+4,+0,+1,+0,+4,+0,+0,+0,+0%,+0,0.453,
-cape,https://oldschool.runescape.wiki/images/Achievement_diary_cape_%28t%29.png?727e9,Achievement diary cape#Trimmed,True,+0,+0,+0,+0,+0,+9,+9,+9,+9,+9,+0,+0,+0%,+4,0.453,
 cape,https://oldschool.runescape.wiki/images/Achievement_diary_cape.png?727e9,Achievement diary cape#Untrimmed,True,+0,+0,+0,+0,+0,+9,+9,+9,+9,+9,+0,+0,+0%,+4,0.453,
 cape,https://oldschool.runescape.wiki/images/Agility_cape%28t%29.png?248b4,Agility cape#Trimmed,True,+0,+0,+0,+0,+0,+9,+9,+9,+9,+9,+0,+0,+0%,+4,0.453,
 cape,https://oldschool.runescape.wiki/images/Agility_cape%28t%29.png?248b4,Agility cape#Trimmed,True,+0,+0,+0,+0,+0,+9,+9,+9,+9,+9,+0,+0,+0%,+4,-4.000,
@@ -431,7 +428,6 @@ cape,https://oldschool.runescape.wiki/images/Music_cape.png?246bf,Music cape#Unt
 cape,https://oldschool.runescape.wiki/images/Mythical_cape.png?3ed38,Mythical cape,True,+0,+0,+6,+0,+0,+8,+8,+8,+8,+8,+1,+0,+0%,+1,1.814,
 cape,https://oldschool.runescape.wiki/images/Mythical_max_cape.png?d73ee,Mythical max cape,True,+0,+0,+6,+0,+0,+8,+8,+8,+8,+8,+1,+0,+0%,+1,0.453,
 cape,https://oldschool.runescape.wiki/images/Obsidian_cape.png?e6c2a,Obsidian cape,True,+0,+0,+0,+0,+0,+9,+9,+9,+9,+9,+0,+0,+0%,+0,1.814,
-cape,https://oldschool.runescape.wiki/images/Obsidian_cape_%28r%29.png?e6c2a,Obsidian cape (r),True,+0,+0,+0,+0,+0,+9,+9,+9,+9,+9,+0,+0,+0%,+0,1.814,
 cape,https://oldschool.runescape.wiki/images/Orange_cape.png?93ae0,Orange cape,False,+0,+0,+0,+0,+0,+0,+1,+1,+0,+2,+0,+0,+0%,+0,0.453,
 cape,https://oldschool.runescape.wiki/images/Pink_cape.png?174e0,Pink cape,True,+0,+0,+0,+0,+0,+0,+1,+1,+0,+2,+0,+0,+0%,+0,0.453,
 cape,https://oldschool.runescape.wiki/images/Prayer_cape%28t%29.png?219da,Prayer cape#Trimmed,True,+0,+0,+0,+0,+0,+9,+9,+9,+9,+9,+0,+0,+0%,+4,0.453,
@@ -545,7 +541,6 @@ feet,https://oldschool.runescape.wiki/images/Boots_of_stone.png?3d026,Boots of s
 feet,https://oldschool.runescape.wiki/images/Bronze_boots.png?05d25,Bronze boots,True,+0,+0,+0,-3,-1,+1,+2,+3,+0,+0,+0,+0,+0%,+0,1.360,
 feet,https://oldschool.runescape.wiki/images/Citizen_shoes.png?98f30,Citizen shoes,True,+0,+0,+0,+0,+0,+0,+2,+2,+0,+0,+0,+0,+0%,+0,0.907,
 feet,https://oldschool.runescape.wiki/images/Climbing_boots.png?4d516,Climbing boots,True,+0,+0,+0,+0,+0,+0,+2,+2,+0,+0,+2,+0,+0%,+0,0.340,
-feet,https://oldschool.runescape.wiki/images/Climbing_boots_%28g%29.png?09bb0,Climbing boots (g),True,+0,+0,+0,+0,+0,+0,+2,+2,+0,+0,+2,+0,+0%,+0,0.340,
 feet,https://oldschool.runescape.wiki/images/Cream_boots.png?5352a,Cream boots,True,+0,+0,+0,+0,+0,+0,+1,+1,+0,+0,+0,+0,+0%,+0,0.340,
 feet,https://oldschool.runescape.wiki/images/Dark_flippers.png?4806b,Dark flippers,True,-2,-2,-2,+0,+0,+0,+1,+1,+0,+0,+0,+0,+0%,+0,0.340,
 feet,https://oldschool.runescape.wiki/images/Decorative_boots_%28gold%29.png?1a603,Decorative boots (gold)#Normal,False,+0,+0,+0,-3,-1,+10,+11,+12,+0,+0,+1,+0,+0%,+0,1.360,
@@ -553,7 +548,6 @@ feet,https://oldschool.runescape.wiki/images/Decorative_boots_%28red%29.png?090e
 feet,https://oldschool.runescape.wiki/images/Decorative_boots_%28white%29.png?3043c,Decorative boots (white),False,+0,+0,+0,-3,-1,+8,+9,+10,+0,+0,+0,+0,+0%,+0,1.360,
 feet,https://oldschool.runescape.wiki/images/Devout_boots.png?3043c,Devout boots,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+5,0.500,
 feet,https://oldschool.runescape.wiki/images/Dragon_boots.png?c85b3,Dragon boots,True,+0,+0,+0,-3,-1,+16,+17,+18,+0,+0,+4,+0,+0%,+0,1.000,
-feet,https://oldschool.runescape.wiki/images/Dragon_boots_%28g%29.png?c85b3,Dragon boots (g),True,+0,+0,+0,-3,-1,+16,+17,+18,+0,+0,+4,+0,+0%,+0,1.000,
 feet,https://oldschool.runescape.wiki/images/Dragonstone_boots.png?5eb13,Dragonstone boots,True,+0,+0,+0,-3,-1,+12,+13,+14,+0,+0,+2,+0,+0%,+0,1.360,
 feet,https://oldschool.runescape.wiki/images/Echo_boots.png?77621,Echo boots,True,+0,+0,+0,-3,-1,+32,+32,+32,-3,+24,+3,+0,+0%,+4,7.000,
 feet,https://oldschool.runescape.wiki/images/Eternal_boots.png?b8cf0,Eternal boots,True,+0,+0,+0,+8,+0,+5,+5,+5,+8,+5,+0,+0,+1%,+0,1.814,
@@ -569,7 +563,6 @@ feet,https://oldschool.runescape.wiki/images/Fremennik_sea_boots_4.png?f59ab,Fre
 feet,https://oldschool.runescape.wiki/images/Frog_slippers.png?16f62,Frog slippers,False,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,0.200,
 feet,https://oldschool.runescape.wiki/images/Frog-leather_boots.png?16f62,Frog-leather boots,True,+0,+0,+0,-8,+2,+1,+1,+1,+0,+1,+0,+0,+0%,+0,1.000,
 feet,https://oldschool.runescape.wiki/images/Ghostly_boots.png?77553,Ghostly boots,True,+0,+0,+0,+2,+0,+0,+0,+0,+2,+0,+0,+0,+0%,+0,0.001,
-feet,https://oldschool.runescape.wiki/images/Gilded_boots.png?583e2,Gilded boots,True,+0,+0,+0,-3,-1,+12,+13,+14,+0,+0,+2,+0,+0%,+0,1.360,
 feet,https://oldschool.runescape.wiki/images/Graceful_boots.png?cf6ac,Graceful boots#Worn,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,-4.000,
 feet,https://oldschool.runescape.wiki/images/Granite_boots.png?e06cd,Granite boots,True,+0,+0,+0,-3,-1,+15,+16,+17,+0,+8,+3,+0,+0%,+0,2.721,
 feet,https://oldschool.runescape.wiki/images/Green_boots.png?e06cd,Green boots,True,+0,+0,+0,+0,+0,+0,+1,+1,+0,+0,+0,+0,+0%,+0,0.340,
@@ -794,8 +787,6 @@ helm,https://oldschool.runescape.wiki/images/Fremennik_hat.png?c83d6,Fremennik h
 helm,https://oldschool.runescape.wiki/images/Fremennik_helm.png?c83d6,Fremennik helm,True,+0,+0,+0,-6,-2,+19,+21,+16,-1,+19,+0,+0,+0%,+0,2.721,
 helm,https://oldschool.runescape.wiki/images/Ghostly_hood.png?d2266,Ghostly hood,True,+0,+0,+0,+3,+0,+0,+0,+0,+3,+0,+0,+0,+0%,+0,0.001,
 helm,https://oldschool.runescape.wiki/images/Gilded_coif.png?caa5a,Gilded coif,True,+0,+0,+0,-1,+4,+4,+7,+8,+4,+6,+0,+0,+0%,+0,0.900,
-helm,https://oldschool.runescape.wiki/images/Gilded_full_helm.png?fe558,Gilded full helm,False,+0,+0,+0,-6,-3,+30,+32,+27,-1,+30,+0,+0,+0%,+0,2.721,
-helm,https://oldschool.runescape.wiki/images/Gilded_med_helm.png?fe558,Gilded med helm,False,+0,+0,+0,-3,+0,+22,+23,+21,-1,+22,+0,+0,+0%,+0,1.814,
 helm,https://oldschool.runescape.wiki/images/Gold_helmet.png?583e2,Gold helmet,True,+0,+0,+0,+0,+0,+0,+10,+20,+0,+10,+0,+0,+0%,+0,31.751,
 helm,https://oldschool.runescape.wiki/images/Graahk_headdress.png?fee90,Graahk headdress,True,+0,+0,+0,+0,-1,+4,+5,+3,+0,+4,+0,+0,+0%,+0,0.226,
 helm,https://oldschool.runescape.wiki/images/Graceful_hood.png?99c22,Graceful hood#Worn,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,-3.000,
@@ -803,7 +794,6 @@ helm,https://oldschool.runescape.wiki/images/Granite_helm.png?19135,Granite helm
 helm,https://oldschool.runescape.wiki/images/Green_hat.png?fe558,Green hat,True,+0,+0,+0,+3,+0,+0,+0,+0,+3,+0,+0,+0,+0%,+0,0.453,
 helm,https://oldschool.runescape.wiki/images/Grey_hat.png?4e070,Grey hat,True,+0,+0,+0,+3,+0,+0,+0,+0,+3,+0,+0,+0,+0%,+0,0.453,
 helm,https://oldschool.runescape.wiki/images/Group_ironman_helm.png?eaa8d,Group ironman helm,False,+0,+0,+0,-6,-3,+6,+7,+5,-1,+6,+0,+0,+0%,+0,0.907,
-helm,https://oldschool.runescape.wiki/images/Group_ironman_helm_%28unranked%29.png?9fd23,Group ironman helm (unranked),False,+0,+0,+0,-6,-3,+6,+7,+5,-1,+6,+0,+0,+0%,+0,0.907,
 helm,https://oldschool.runescape.wiki/images/Guthan%27s_helm.png?e75c0,Guthan's helm#Undamaged,True,+0,+0,+0,-6,-2,+55,+58,+54,-1,+62,+0,+0,+0%,+0,2.721,
 helm,https://oldschool.runescape.wiki/images/Guthix_coif.png?98c63,Guthix coif,True,+0,+0,+0,-1,+7,+4,+7,+10,+4,+8,+0,+0,+0%,+1,0.900,
 helm,https://oldschool.runescape.wiki/images/Guthix_full_helm.png?d316a,Guthix full helm,False,+0,+0,+0,-6,-3,+30,+32,+27,-1,+30,+0,+0,+0%,+1,2.721,
@@ -983,8 +973,6 @@ legs,https://oldschool.runescape.wiki/images/Fremennik_skirt.png?f59ab,Fremennik
 legs,https://oldschool.runescape.wiki/images/Frog-leather_chaps.png?16f62,Frog-leather chaps,True,+0,+0,+0,-5,+2,+7,+7,+9,+4,+9,+0,+0,+0%,+0,3.000,
 legs,https://oldschool.runescape.wiki/images/Ghostly_robe_%28bottom%29.png?d2266,Ghostly robe (bottom),True,+0,+0,+0,+4,+0,+0,+0,+0,+4,+0,+0,+0,+0%,+0,0.001,
 legs,https://oldschool.runescape.wiki/images/Gilded_d%27hide_chaps.png?583e2,Gilded d'hide chaps,False,+0,+0,+0,-10,+8,+22,+16,+24,+8,+22,+0,+0,+0%,+0,5.000,
-legs,https://oldschool.runescape.wiki/images/Gilded_platelegs.png?fe558,Gilded platelegs,False,+0,+0,+0,-21,-11,+51,+49,+47,-4,+49,+0,+0,+0%,+0,9.071,
-legs,https://oldschool.runescape.wiki/images/Gilded_plateskirt.png?583e2,Gilded plateskirt,False,+0,+0,+0,-21,-11,+51,+49,+47,-4,+49,+0,+0,+0%,+0,9.071,
 legs,https://oldschool.runescape.wiki/images/Graahk_legs.png?19135,Graahk legs,True,+0,+0,+0,+0,-7,+11,+10,+10,+0,+10,+0,+0,+0%,+0,0.226,
 legs,https://oldschool.runescape.wiki/images/Graceful_legs.png?19135,Graceful legs#Worn,True,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0,+0%,+0,-6.000,
 legs,https://oldschool.runescape.wiki/images/Granite_legs.png?fee90,Granite legs,True,+0,+0,+0,-31,-18,+43,+45,+41,-4,+68,+0,+0,+0%,+0,15.875,
@@ -992,7 +980,6 @@ legs,https://oldschool.runescape.wiki/images/Green_d%27hide_chaps.png?e75c0,Gree
 legs,https://oldschool.runescape.wiki/images/Green_robe_bottoms.png?e75c0,Green robe bottoms,True,+0,+0,+0,+0,+0,+0,+2,+2,+0,+0,+0,+0,+0%,+0,0.907,
 legs,https://oldschool.runescape.wiki/images/Grey_robe_bottoms.png?c3bde,Grey robe bottoms,True,+0,+0,+0,+0,+0,+0,+2,+2,+0,+0,+0,+0,+0%,+0,0.907,
 legs,https://oldschool.runescape.wiki/images/Group_ironman_platelegs.png?5c809,Group ironman platelegs,False,+0,+0,+0,-21,-11,+11,+10,+10,-4,+10,+0,+0,+0%,+0,4.535,
-legs,https://oldschool.runescape.wiki/images/Group_ironman_platelegs_%28unranked%29.png?9fd23,Group ironman platelegs (unranked),False,+0,+0,+0,-21,-11,+11,+10,+10,-4,+10,+0,+0,+0%,+0,4.535,
 legs,https://oldschool.runescape.wiki/images/Guthan%27s_chainskirt.png?d316a,Guthan's chainskirt#Undamaged,True,+0,+0,+0,-14,-11,+75,+72,+73,-4,+82,+0,+0,+0%,+0,8.164,
 legs,https://oldschool.runescape.wiki/images/Guthix_chaps.png?d316a,Guthix chaps,True,+0,+0,+0,-10,+17,+31,+25,+33,+28,+31,+0,+0,+0%,+1,5.000,
 legs,https://oldschool.runescape.wiki/images/Guthix_platelegs.png?d316a,Guthix platelegs,False,+0,+0,+0,-21,-11,+51,+49,+47,-4,+49,+0,+0,+0%,+1,9.071,
@@ -1267,8 +1254,6 @@ shield,https://oldschool.runescape.wiki/images/Fletching_knife.png?bf437,Fletchi
 shield,https://oldschool.runescape.wiki/images/Fremennik_shield.png?f59ab,Fremennik shield,True,+0,+0,+0,-8,-2,+27,+31,+29,-1,+29,+0,+0,+0%,+0,2.267,
 shield,https://oldschool.runescape.wiki/images/Ghommal%27s_avernic_defender_5.png?5489d,Ghommal's avernic defender 5#Normal,True,+30,+29,+28,-5,-4,+30,+29,+28,-5,-4,+8,+0,+0%,+0,0.453,
 shield,https://oldschool.runescape.wiki/images/Ghommal%27s_avernic_defender_6.png?674ba,Ghommal's avernic defender 6#Normal,True,+30,+29,+28,-5,-4,+30,+29,+28,-5,-4,+8,+0,+0%,+0,0.453,
-shield,https://oldschool.runescape.wiki/images/Gilded_kiteshield.png?fe558,Gilded kiteshield,False,+0,+0,+0,-8,-3,+44,+48,+46,-1,+46,+0,+0,+0%,+0,5.443,
-shield,https://oldschool.runescape.wiki/images/Gilded_sq_shield.png?caa5a,Gilded sq shield,False,+0,+0,+0,-6,+0,+38,+40,+36,+0,+38,+0,+0,+0%,+0,3.628,
 shield,https://oldschool.runescape.wiki/images/Granite_shield.png?e75c0,Granite shield,True,+0,+0,+0,-12,-8,+40,+42,+38,+0,+65,+0,+0,+0%,+0,6.803,
 shield,https://oldschool.runescape.wiki/images/Green_d%27hide_shield.png?4e070,Green d'hide shield,True,-15,-15,-11,-10,+4,+14,+12,+11,+9,+11,+0,+0,+0%,+0,8.000,
 shield,https://oldschool.runescape.wiki/images/Guthix_d%27hide_shield.png?d316a,Guthix d'hide shield,True,-15,-15,-11,-10,+7,+21,+18,+16,+15,+14,+0,+0,+0%,+1,8.000,
@@ -1485,9 +1470,7 @@ weapon_1h,https://oldschool.runescape.wiki/images/Fire_battlestaff.png?3859a,Fir
 weapon_1h,https://oldschool.runescape.wiki/images/Fremennik_blade.png?c27d7,Fremennik blade,True,+6,+29,-2,+0,+0,+0,+1,+0,+0,+0,+28,+0,+0%,+0,1.814,4
 weapon_1h,https://oldschool.runescape.wiki/images/Frying_pan.png?c3b05,Frying pan,True,-4,-4,+25,-4,+0,+0,+0,+0,+0,+0,+20,+0,+0%,+0,1.587,6
 weapon_1h,https://oldschool.runescape.wiki/images/Ghrazi_rapier.png?d2266,Ghrazi rapier,True,+100,+55,+0,+0,+0,+0,+0,+0,+0,+0,+93,+0,+0%,+0,1.814,4
-weapon_1h,https://oldschool.runescape.wiki/images/Gilded_axe.png?19135,Gilded axe,False,-2,+26,+24,+0,+0,+0,+1,+0,+0,+0,+29,+0,+0%,+0,1.360,5
 weapon_1h,https://oldschool.runescape.wiki/images/Gilded_hasta.png?fe558,Gilded hasta,True,+36,+36,+36,+0,+0,-10,-10,-9,+0,-10,+42,+0,+0%,+0,2.267,4
-weapon_1h,https://oldschool.runescape.wiki/images/Gilded_pickaxe.png?583e2,Gilded pickaxe,False,+26,-2,+24,+0,+0,+0,+1,+0,+0,+0,+29,+0,+0%,+0,2.267,5
 weapon_1h,https://oldschool.runescape.wiki/images/Glowing_dagger.png?06911,Glowing dagger,True,+5,+3,-4,+1,+0,+0,+0,+0,+1,+0,+0,+0,+0%,+0,0.453,4
 weapon_1h,https://oldschool.runescape.wiki/images/Granite_hammer.png?e75c0,Granite hammer,True,+0,+0,+57,-3,-1,+0,+0,+0,+0,+0,+56,+0,+0%,+0,5.000,4
 weapon_1h,https://oldschool.runescape.wiki/images/Granite_longsword.png?fee90,Granite longsword,True,+56,+65,-2,+0,+0,+0,+3,+2,+0,+0,+62,+0,+0%,+0,2.721,5
@@ -1791,7 +1774,6 @@ weapon_2h,https://oldschool.runescape.wiki/images/Earthbound_tecpatl.png?e51e4,E
 weapon_2h,https://oldschool.runescape.wiki/images/Eclipse_atlatl.png?77621,Eclipse atlatl,True,+0,+0,+0,+0,+87,+0,+0,+0,+0,+0,+40,+0,+0%,+0,3.628,4
 weapon_2h,https://oldschool.runescape.wiki/images/Elder_maul.png?0a875,Elder maul,True,+0,+0,+135,+0,+0,+0,+0,+0,+0,+0,+147,+0,+0%,+0,5.443,6
 weapon_2h,https://oldschool.runescape.wiki/images/Gadderhammer.png?d6d35,Gadderhammer,True,-4,-4,+35,-4,+0,+0,+0,+0,+0,+0,+35,+0,+0%,+0,1.814,5
-weapon_2h,https://oldschool.runescape.wiki/images/Gilded_2h_sword.png?583e2,Gilded 2h sword,False,-4,+69,+50,-4,+0,+0,+0,+0,+0,-1,+70,+0,+0%,+0,3.628,7
 weapon_2h,https://oldschool.runescape.wiki/images/Gilded_spade.png?06911,Gilded spade,False,-100,-100,-50,+0,+0,+0,+0,+0,+0,+0,-10,+0,+0%,+0,3.000,4
 weapon_2h,https://oldschool.runescape.wiki/images/Gilded_spear.png?c5e58,Gilded spear,True,+36,+36,+36,+0,+0,+1,+1,+0,+0,+0,+42,+0,+0%,+0,2.267,4
 weapon_2h,https://oldschool.runescape.wiki/images/Glacial_temotli.png?4836f,Glacial temotli,True,+11,+0,+72,+0,+0,+0,+0,+0,+0,+0,+64,+0,+0%,+2,1.814,4
@@ -1876,7 +1858,6 @@ weapon_2h,https://oldschool.runescape.wiki/images/Training_bow.png?849c7,Trainin
 weapon_2h,https://oldschool.runescape.wiki/images/Tumeken%27s_shadow.png?3169b,Tumeken's shadow#Charged,True,+0,+0,+0,+35,+0,+0,+0,+0,+20,+0,+0,+0,+0%,+1,5.000,5
 weapon_2h,https://oldschool.runescape.wiki/images/Twisted_bow.png?08f42,Twisted bow,True,+0,+0,+0,+0,+70,+0,+0,+0,+0,+0,+0,+20,+0%,+0,1.814,6
 weapon_2h,https://oldschool.runescape.wiki/images/Tzhaar-ket-om.png?08f42,Tzhaar-ket-om,True,+0,+0,+80,-4,+0,+0,+0,+0,+0,+0,+85,+0,+0%,+0,3.628,7
-weapon_2h,https://oldschool.runescape.wiki/images/Tzhaar-ket-om_%28t%29.png?08f42,Tzhaar-ket-om (t),True,+0,+0,+80,-4,+0,+0,+0,+0,+0,+0,+85,+0,+0%,+0,3.628,7
 weapon_2h,https://oldschool.runescape.wiki/images/Venator_bow.png?6600c,Venator bow#Charged,True,+0,+0,+0,+0,+90,+0,+0,+0,+0,+0,+0,+25,+0%,+0,4.500,5
 weapon_2h,https://oldschool.runescape.wiki/images/Verac%27s_flail.png?f4ddf,Verac's flail#Undamaged,True,+68,-2,+82,+0,+0,+0,+0,+0,+0,+0,+72,+0,+0%,+6,2.267,5
 weapon_2h,https://oldschool.runescape.wiki/images/Webweaver_bow.png?dd2ac,Webweaver bow#Charged,True,+0,+0,+0,+0,+85,+0,+0,+0,+0,+0,+0,+65,+0%,+0,3.175,4

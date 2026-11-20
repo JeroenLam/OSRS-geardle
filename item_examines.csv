@@ -220,9 +220,7 @@ Fremennik red shirt,The latest in Fremennik fashion.
 Fremennik robe,The latest fashion in Rellekka.
 Frog-leather body,Armour made out of frog hide.
 Ghostly robe (top),A particularly spooky robe top.
-Gilded chainbody,A series of connected metal rings plated in gold.
 Gilded d'hide body,Made with 100% golden dragonhide.
-Gilded platebody,Rune platebody with gold plate.
 Golden apron,An astonishingly gold apron.
 Graahk top,This should make me harder to spot in desert areas.
 Graceful top#Worn,A sign of your grace.
@@ -329,7 +327,6 @@ Zealot's robe top,A well fashioned robe with a strange aura emanating.
 3rd Age cloak,A beautiful cloak woven by ancient tailors.
 3rd Age druidic cloak,A fabulously ancient vine cloak as worn by the druids of old.
 Accumulator max cape,The cape worn by only the most experienced players.
-Achievement diary cape#Trimmed,The cape worn by only the most elite and experienced adventurers.
 Achievement diary cape#Untrimmed,The cape worn by experienced adventurers.
 Agility cape#Trimmed,The cape worn by the most agile of heroes.
 Agility cape#Untrimmed,The cape worn by the most agile of heroes.
@@ -429,7 +426,6 @@ Music cape#Untrimmed,The cape worn by music aficionados.
 Mythical cape,The cape worn by members of the Myths' Guild.
 Mythical max cape,The cape worn by only the most experienced players.
 Obsidian cape,A cape of woven obsidian plates.
-Obsidian cape (r),A cape of woven obsidian plates.
 Orange cape,A thick orange cape.
 Pink cape,It's a bit pink.
 Prayer cape#Trimmed,The cape worn by the most pious of heroes.
@@ -543,7 +539,6 @@ Boots of stone,A pair of heat resistant boots with rocky soles.
 Bronze boots,These will protect my feet.
 Citizen shoes,Ghetto disguise!
 Climbing boots,Boots made for climbing.
-Climbing boots (g),Boots made for climbing. Nice trim!
 Cream boots,"They're soft, silky and cream."
 Dark flippers,"Spooky, scary, strangely uncomfortable flippers."
 Decorative boots (gold)#Normal,Very decorative boots.
@@ -551,7 +546,6 @@ Decorative boots (red),Very decorative boots.
 Decorative boots (white),Very decorative boots.
 Devout boots,A pair of Devout Boots.
 Dragon boots,These will protect my feet.
-Dragon boots (g),These fancy boots will protect my feet.
 Dragonstone boots,A stylish pair of rune boots inlaid with dragonstones.
 Echo boots,"Thick, stony boots. There's a giant crystal in the middle of them."
 Eternal boots,A pair of upgraded infinity boots.
@@ -567,7 +561,6 @@ Fremennik sea boots 4,Sturdy boots for northern winters.
 Frog slippers,Cute frog slippers.
 Frog-leather boots,Boots made out of frog hide.
 Ghostly boots,They seem to be not quite of this world...
-Gilded boots,Rune boots with gold plate.
 Graceful boots#Worn,For your graceful feet.
 Granite boots,"These will protect my feet, but are a bit heavy."
 Green boots,"They're soft, silky and green."
@@ -790,8 +783,6 @@ Fremennik hat,A silly pointed hat.
 Fremennik helm,A sturdy helm worn only by Fremennik clan members.
 Ghostly hood,"A ghostly hood, fit for a ghostly head."
 Gilded coif,Made with 100% golden dragonhide.
-Gilded full helm,Rune full helmet with gold plate.
-Gilded med helm,A medium sized helmet with gold plate.
 Gold helmet,Made of gold and white gold.
 Graahk headdress,This should make me harder to spot in desert areas.
 Graceful hood#Worn,A sign of your grace.
@@ -799,7 +790,6 @@ Granite helm,A stone helmet.
 Green hat,A silly green pointed hat.
 Grey hat,A silly pointed hat.
 Group ironman helm,"Engraved within, it reads ""We stand alone - together""."
-Group ironman helm (unranked),"Engraved within, it reads ""Ranked or not: We stand alone - together""."
 Guthan's helm#Undamaged,Guthan the Infested's helm.
 Guthix coif,Guthix blessed dragonhide coif.
 Guthix full helm,A rune full face helmet in the colours of Guthix.
@@ -979,8 +969,6 @@ Fremennik skirt,The latest fashion in Rellekka.
 Frog-leather chaps,Chaps made out of frog hide.
 Ghostly robe (bottom),An unearthly set of robe bottoms.
 Gilded d'hide chaps,Made with 100% golden dragonhide.
-Gilded platelegs,Rune platelegs with gold plate.
-Gilded plateskirt,Rune plateskirt with gold plate.
 Graahk legs,These should make me harder to spot in desert areas.
 Graceful legs#Worn,You have graceful legs. How nice.
 Granite legs,These look pretty heavy.
@@ -988,7 +976,6 @@ Green d'hide chaps,Made from 100% real dragonhide.
 Green robe bottoms,Made by Tree Gnomes with a thing for green.
 Grey robe bottoms,Made by werewolves for werewolves.
 Group ironman platelegs,Protects your legs while still stylish.
-Group ironman platelegs (unranked),Protects your legs while still stylish.
 Guthan's chainskirt#Undamaged,Guthan the Infested's chainskirt.
 Guthix chaps,Guthix blessed dragonhide chaps.
 Guthix platelegs,Rune plate legs in the colours of Guthix.
@@ -1261,8 +1248,6 @@ Fletching knife,A crafty looking knife.
 Fremennik shield,A shield worn by Fremennik warriors.
 Ghommal's avernic defender 5#Normal,A defensive weapon with sublime ornamentation.
 Ghommal's avernic defender 6#Normal,A defensive weapon with prestigious ornamentation.
-Gilded kiteshield,Rune kiteshield with gold plate.
-Gilded sq shield,A medium square shield in gold plate.
 Granite shield,A solid stone shield.
 Green d'hide shield,A solid maple shield covered in green dragon leather.
 Guthix d'hide shield,Guthix blessed wooden shield covered in dragon leather.
@@ -1474,9 +1459,7 @@ Fire battlestaff,It's a slightly magical stick.
 Fremennik blade,A sword used only by Fremennik warriors.
 Frying pan,Looks like it's non-stick too!
 Ghrazi rapier,"A razor sharp rapier, smeared with vampyric blood."
-Gilded axe,A powerful axe.
 Gilded hasta,"A rune-tipped, one-handed hasta, with gold plate."
-Gilded pickaxe,Used for mining and very stylish.
 Glowing dagger,A black obsidian dagger. It has a strange aura about it - and it seems to be glowing!
 Granite hammer,Hammer time.
 Granite longsword,A razor sharp longsword made of stone.
@@ -1772,7 +1755,6 @@ Earthbound tecpatl,Shaped from rock that was sharpened by time.
 Eclipse atlatl,A powerful thrown weapon forged from an eclipse.
 Elder maul,A maul crafted from the component parts of Tekton.
 Gadderhammer,A specially crafted hammer with strange markings on it.
-Gilded 2h sword,A two handed sword with gold plate.
 Gilded spade,"Oh, I'm a gold digger?"
 Gilded spear,A rune tipped spear with gold plate.
 Glacial temotli,It's clobbering time.
@@ -1856,7 +1838,6 @@ Toxic blowpipe#Charged,Fires darts while coating them with venom.
 Tumeken's shadow#Charged,An ancient staff created using a higher power.
 Twisted bow,A mystical bow carved from the twisted remains of the Great Olm.
 Tzhaar-ket-om,A maul of obsidian.
-Tzhaar-ket-om (t),A maul of obsidian with trim and spikes.
 Venator bow#Charged,A bow used by hunters from a forgotten empire.
 Verac's flail#Undamaged,Verac the Defiled's flail.
 Webweaver bow#Charged,"A bow of a follower of Armadyl, corrupted by the power of Venenatis."
