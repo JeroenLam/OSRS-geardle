@@ -24,6 +24,7 @@ FIELDS = [
     "examine",
     "slayer_category",
     "elemental_weakness",
+    "league_region",
     "image",
 ]
 
@@ -37,6 +38,7 @@ COLUMNS = [
     "attack_speed",
     "elemental_weakness",
     "slayer_category",
+    "league_region",
     "examine",
 ]
 
@@ -66,6 +68,48 @@ def normalize_styles(raw) -> list[str]:
     return [name for name, pattern in ATTACK_STYLES if re.search(pattern, text)]
 
 
+LEAGUE_REGIONS = [
+    "Misthalin",
+    "Karamja",
+    "Asgarnia",
+    "Kandarin",
+    "Morytania",
+    "Desert",
+    "Tirannwn",
+    "Fremennik",
+    "Wilderness",
+    "Kourend",
+    "Varlamore",
+]
+
+
+def parse_regions(values) -> set[str]:
+    """Parse wiki region strings such as 'Misthalin, Fremennik' or 'karamja&kandarin'.
+
+    'No', 'N/A' and 'General' (not a selectable region) are dropped.
+    """
+    if isinstance(values, str):
+        values = [values]
+    found = set()
+    for value in values or []:
+        for part in re.split(r"[,&]", value or ""):
+            part = part.strip().lower()
+            found.update(r for r in LEAGUE_REGIONS if r.lower() == part)
+    return found
+
+
+def load_regions(monsters: list[dict]) -> dict[str, set[str]]:
+    """League regions per monster page, from the infobox and from every spawn location line."""
+    regions: dict[str, set[str]] = defaultdict(set)
+    for monster in monsters:
+        regions[monster["page_name"]] |= parse_regions(monster.get("league_region"))
+
+    print("Downloading spawn locations...")
+    for line in query_bucket("locline", ["page_name", "leagueregion"]):
+        regions[line["page_name"]] |= parse_regions(line.get("leagueregion"))
+    return regions
+
+
 def normalize_categories(raw) -> list[str]:
     seen: list[str] = []
     for category in raw or []:
@@ -75,7 +119,7 @@ def normalize_categories(raw) -> list[str]:
     return seen
 
 
-def to_row(monster: dict) -> dict:
+def to_row(monster: dict, regions: set[str]) -> dict:
     weakness = clean_text(monster.get("elemental_weakness")).capitalize()
     speed = monster.get("attack_speed")
     images = monster.get("image") or []
@@ -89,6 +133,7 @@ def to_row(monster: dict) -> dict:
         "attack_speed": speed if isinstance(speed, int) and speed > 0 else "",
         "elemental_weakness": "" if weakness in ("", "None") else weakness,
         "slayer_category": ";".join(normalize_categories(monster.get("slayer_category"))),
+        "league_region": ";".join(r for r in LEAGUE_REGIONS if r in regions),
         "examine": clean_text(monster.get("examine")),
     }
 
@@ -96,6 +141,7 @@ def to_row(monster: dict) -> dict:
 def main():
     print("Downloading monster data...")
     monsters = query_bucket("infobox_monster", FIELDS)
+    regions = load_regions(monsters)
 
     pages: dict[str, list[dict]] = defaultdict(list)
     for monster in monsters:
@@ -107,7 +153,7 @@ def main():
     rows = []
     for name, versions in pages.items():
         default = next((v for v in versions if "default_version" in v), versions[0])
-        rows.append(to_row(default))
+        rows.append(to_row(default, regions[name]))
     rows.sort(key=lambda r: r["name"].lower())
 
     with OUTPUT_FILE.open("w", newline="", encoding="utf-8") as file:

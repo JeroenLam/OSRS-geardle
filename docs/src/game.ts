@@ -1,8 +1,10 @@
 import type { Column, Game, Item, Value } from './data';
 
-export type Result = 'equal' | 'higher' | 'lower' | 'partial' | 'different';
+export type Result = 'equal' | 'higher' | 'lower' | 'partial' | 'different' | 'unknown';
 
 export function compareValue(col: Column, guess: Value, target: Value): Result {
+    const isEmpty = (v: Value) => v === null || v === '' || (Array.isArray(v) && v.length === 0);
+    if (col.emptyIsUnknown && (isEmpty(guess) || isEmpty(target))) return 'unknown';
     if (col.kind === 'number' && typeof guess === 'number' && typeof target === 'number') {
         if (guess === target) return 'equal';
         // Direction points toward the target value

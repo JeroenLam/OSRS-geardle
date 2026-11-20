@@ -305,6 +305,17 @@ td.img img {
     background: var(--partial);
 }
 
+td.cell.list {
+    white-space: normal;
+    min-width: 7rem;
+    max-width: 14rem;
+}
+
+.cell.unknown {
+    background: var(--panel);
+    color: var(--muted);
+}
+
 .cell.different {
     background: var(--wrong);
 }

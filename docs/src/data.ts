@@ -13,6 +13,8 @@ export interface Column {
   kind: ColumnKind;
   suffix?: string;
   format?: (v: number) => string;
+  /** Empty means "the wiki has no data", shown as unknown instead of being compared */
+  emptyIsUnknown?: boolean;
 }
 
 export type Value = string | number | string[] | null;
@@ -74,6 +76,13 @@ const MONSTER_COLUMNS: Column[] = [
   { key: 'attack_speed', label: 'Speed', title: 'Attack speed (ticks)', kind: 'number' },
   { key: 'elemental_weakness', label: 'Weakness', title: 'Elemental weakness', kind: 'text' },
   { key: 'slayer_category', label: 'Slayer', title: 'Slayer category', kind: 'list' },
+  {
+    key: 'league_region',
+    label: 'Region',
+    title: 'Leagues region(s) where it can be found',
+    kind: 'list',
+    emptyIsUnknown: true,
+  },
 ];
 
 function parseCsv(text: string): Record<string, string>[] {
@@ -142,7 +151,8 @@ function monsterGame(): Game {
     (it) =>
       required.every((k) => it.values[k] !== null) &&
       (it.values.attack_style as string[]).length > 0 &&
-      (it.values.slayer_category as string[]).length > 0,
+      (it.values.slayer_category as string[]).length > 0 &&
+      (it.values.league_region as string[]).length > 0,
   );
   return {
     id: 'monsters',
