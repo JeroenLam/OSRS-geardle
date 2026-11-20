@@ -3,6 +3,10 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
     base: './',
+    build: {
+        // Each game's data is its own chunk; the RS3 gear table is ~870 kB (140 kB gzipped)
+        chunkSizeWarningLimit: 1000,
+    },
     server: {
         // CSV lives in the repo root, outside the Vite root
         fs: { allow: ['..'] },
@@ -14,7 +18,7 @@ export default defineConfig({
             manifest: {
                 name: 'OSRS Geardle',
                 short_name: 'Geardle',
-                description: 'A Wordle-style guessing game for Old School RuneScape equipment, monsters, spells and quests.',
+                description: 'A Wordle-style guessing game for Old School RuneScape and RuneScape 3 equipment, monsters, spells and quests.',
                 start_url: '.',
                 scope: '.',
                 display: 'standalone',
@@ -31,7 +35,13 @@ export default defineConfig({
                 globPatterns: ['**/*.{js,css,html,svg,png}'],
                 runtimeCaching: [
                     {
-                        urlPattern: ({ url }) => url.origin === 'https://oldschool.runescape.wiki',
+                        urlPattern: ({ url }) =>
+                            url.origin === 'https://fonts.googleapis.com' || url.origin === 'https://fonts.gstatic.com',
+                        handler: 'StaleWhileRevalidate',
+                        options: { cacheName: 'google-fonts', cacheableResponse: { statuses: [0, 200] } },
+                    },
+                    {
+                        urlPattern: ({ url }) => url.origin === 'https://oldschool.runescape.wiki' || url.origin === 'https://runescape.wiki',
                         handler: 'CacheFirst',
                         options: {
                             cacheName: 'wiki-images',

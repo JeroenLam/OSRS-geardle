@@ -1,6 +1,8 @@
 # OSRS Geardle
 
-A Wordle-style guessing game for Old School RuneScape equipment (Geardle), monsters (NPCdle), spells (Spelldle) and quests (Questdle).
+A Wordle-style guessing game for Old School RuneScape **and RuneScape 3**: equipment (Geardle), monsters (NPCdle), spells (Spelldle) and quests (Questdle).
+
+Use the **OSRS / RS3** toggle at the top to switch game version; each version has its own look and its own data.
 
 **Play it here: https://jeroenlam.github.io/OSRS-geardle/**
 
@@ -19,6 +21,8 @@ Spells compare spellbook, Magic level, type (combat/utility/teleport), element, 
 
 Quests compare difficulty, length, required skills, the highest skill level required, the number of prerequisite quests (including nested ones), whether there are enemies to defeat, members, series and release year.
 
+The RS3 versions use RS3's own stats: gear compares slot, combat class, tier, armour/weapon type, damage, accuracy, style, speed, armour, life points, damage bonus, prayer, members and release year; monsters compare combat level, release year, size, attack styles, attack speed, weaknesses, slayer category, Leagues region and life points; spells compare the same fields as OSRS (with Lodestone as a spell type); quests also compare the Age the quest is set in.
+
 After 10 wrong guesses a hint is revealed: the examine text for gear and monsters, the in-game description for spells and quests.
 
 **Daily** mode has one item per day for everyone. **Practice** mode picks a random item every game.
@@ -31,6 +35,6 @@ npm install
 npm run dev
 ```
 
-Add `?debug` to the URL to log the target item to the console.
+Add `?debug` to the URL to log the target to the console. `?v=rs3` opens the RS3 version and `?game=monsters|spells|quests` picks the game.
 
-The equipment data in `combined_equipment.csv`, item examines in `item_examines.csv` monster data in `monsters.csv` spell data in `spells.csv` and quest data in `quests.csv` are scraped from the [OSRS Wiki](https://oldschool.runescape.wiki/) using the scripts in `scraper/`. Pushes to `main` are built and deployed to GitHub Pages by `.github/workflows/deploy.yml`.
+The equipment data in `combined_equipment.csv`, item examines in `item_examines.csv` monster data in `monsters.csv` spell data in `spells.csv` and quest data in `quests.csv` are scraped (RS3 data lives in `rs3/`, scraped from the [RuneScape Wiki](https://runescape.wiki/)) from the [OSRS Wiki](https://oldschool.runescape.wiki/) using the scripts in `scraper/`. Pushes to `main` are built and deployed to GitHub Pages by `.github/workflows/deploy.yml`.

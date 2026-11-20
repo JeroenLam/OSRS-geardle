@@ -40,8 +40,8 @@ export function dailyTarget(game: Game, dateKey: string): Item {
 }
 
 export function seededTarget(game: Game, seed: string): Item {
-    // Gear keeps its original salt so previously shared seed links still work
-    const salt = game.id === 'gear' ? 'practice' : `${game.keyPrefix}-practice`;
+    // OSRS gear keeps its original salt so previously shared seed links still work
+    const salt = game.keyPrefix === 'geardle' ? 'practice' : `${game.keyPrefix}-practice`;
     return game.targets[hashString(`${salt}-${seed}`) % game.targets.length];
 }
 
