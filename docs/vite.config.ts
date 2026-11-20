@@ -14,7 +14,7 @@ export default defineConfig({
             manifest: {
                 name: 'OSRS Geardle',
                 short_name: 'Geardle',
-                description: 'A Wordle-style guessing game for Old School RuneScape equipment and monsters.',
+                description: 'A Wordle-style guessing game for Old School RuneScape equipment, monsters and spells.',
                 start_url: '.',
                 scope: '.',
                 display: 'standalone',

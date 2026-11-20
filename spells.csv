@@ -1,0 +1,200 @@
+name,image,spellbook,level,type,element,runes,rune_count,extra_items,is_member,exp,release_year,description
+Adept Reanimation,https://oldschool.runescape.wiki/images/Adept_Reanimation.png,Arceuus,41,Utility,,Body;Nature;Soul,8,,Yes,80,2021,Reanimates a medium levelled creature
+Alchemic Convergence,https://oldschool.runescape.wiki/images/Alchemic_Convergence.png,Standard,1,Utility,,,0,,Yes,10,2026,Downgrades up to 10 of a resource into a lower tier
+Alchemic Divergence,https://oldschool.runescape.wiki/images/Alchemic_Divergence.png,Standard,1,Utility,,,0,,Yes,10,2026,Upgrades up to 10 of a resource into a higher tier.
+Annakarl Teleport,https://oldschool.runescape.wiki/images/Annakarl_Teleport.png,Ancient,90,Teleport,,Law;Blood,4,,Yes,100,2005,A teleportation spell
+Ape Atoll Teleport (Arceuus),https://oldschool.runescape.wiki/images/Ape_Atoll_Teleport_%28Arceuus%29.png,Arceuus,90,Teleport,,Law;Blood;Soul,6,,Yes,100,2016,Teleports you to the dungeon under the Ape Atoll temple
+Ape Atoll Teleport (standard),https://oldschool.runescape.wiki/images/Ape_Atoll_Teleport_%28standard%29.png,Standard,64,Teleport,,Water;Fire;Law,6,Banana,Yes,74,2006,Teleports you to Ape Atoll
+Arceuus Home Teleport,https://oldschool.runescape.wiki/images/Arceuus_Home_Teleport.png,Arceuus,1,Teleport,,,0,,Yes,0,2016,Requires no runes - recharge time 30 mins. Warning: This spell takes a long time to cast and will be interrupted by combat.
+Arceuus Library Teleport,https://oldschool.runescape.wiki/images/Arceuus_Library_Teleport.png,Arceuus,6,Teleport,,Earth;Law,3,,Yes,9.5,2021,Teleports you to the Arceuus Library
+Ardougne Teleport,https://oldschool.runescape.wiki/images/Ardougne_Teleport.png,Standard,51,Teleport,,Water;Law,4,,Yes,61,2002,Teleports you to Ardougne
+Astral Contact,https://oldschool.runescape.wiki/images/Astral_Contact.png,Lunar,67,Utility,,Air;Cosmic;Astral,4,,Yes,63,2006,Contact various characters across long distances
+Bake Pie,https://oldschool.runescape.wiki/images/Bake_Pie.png,Lunar,65,Utility,,Water;Fire;Astral,10,,Yes,60,2006,Bake pies without a stove
+Barbarian Teleport,https://oldschool.runescape.wiki/images/Barbarian_Teleport.png,Lunar,75,Teleport,,Fire;Law;Astral,7,,Yes,76,2006,Teleports you to the Barbarian Outpost
+Barrows Teleport,https://oldschool.runescape.wiki/images/Barrows_Teleport.png,Arceuus,83,Teleport,,Law;Blood;Soul,5,,Yes,90,2016,Teleports you to the Barrows brothers' graveyard
+Basic Reanimation,https://oldschool.runescape.wiki/images/Basic_Reanimation.png,Arceuus,16,Utility,,Body;Nature,6,,Yes,32,2021,Reanimates a low levelled creature
+Battlefront Teleport,https://oldschool.runescape.wiki/images/Battlefront_Teleport.png,Arceuus,23,Teleport,,Earth;Fire;Law,3,,Yes,19,2019,Teleports you to the grave north-west of Kebos Battlefront
+Bind,https://oldschool.runescape.wiki/images/Bind.png,Standard,20,Combat,,Water;Earth;Nature,8,,No,31,2004,Holds your opponent for 5 seconds
+Blood Barrage,https://oldschool.runescape.wiki/images/Blood_Barrage.png,Ancient,92,Combat,Blood,Death;Blood;Soul,9,,Yes,51,2005,A multi-target strong blood attack
+Blood Blitz,https://oldschool.runescape.wiki/images/Blood_Blitz.png,Ancient,80,Combat,Blood,Death;Blood,6,,Yes,45,2005,A single target strong blood attack
+Blood Burst,https://oldschool.runescape.wiki/images/Blood_Burst.png,Ancient,68,Combat,Blood,Chaos;Death;Blood,8,,Yes,39,2005,A multi-target blood attack
+Blood Rush,https://oldschool.runescape.wiki/images/Blood_Rush.png,Ancient,56,Combat,Blood,Chaos;Death;Blood,5,,Yes,33,2005,A single target blood attack
+Bones to Bananas,https://oldschool.runescape.wiki/images/Bones_to_Bananas.png,Standard,15,Utility,,Water;Earth;Nature,5,,No,25,2001,Changes held bones into bananas
+Bones to Peaches,https://oldschool.runescape.wiki/images/Bones_to_Peaches.png,Standard,60,Utility,,Water;Earth;Nature,10,,Yes,35.5,2006,Changes held bones into peaches
+Boost Potion Share,https://oldschool.runescape.wiki/images/Boost_Potion_Share.png,Lunar,84,Combat,,Water;Earth;Astral,25,,Yes,88,2006,Shares a potion with up to 4 nearby players
+Camelot Teleport,https://oldschool.runescape.wiki/images/Camelot_Teleport.png,Standard,45,Teleport,,Air;Law,6,,Yes,55.5,2002,Teleports you to Camelot
+Carrallanger Teleport,https://oldschool.runescape.wiki/images/Carrallanger_Teleport.png,Ancient,84,Teleport,,Law;Soul,4,,Yes,94,2005,A teleportation spell
+Catherby Teleport,https://oldschool.runescape.wiki/images/Catherby_Teleport.png,Lunar,87,Teleport,,Water;Law;Astral,16,,Yes,92,2006,Teleports you to Catherby
+Cemetery Teleport,https://oldschool.runescape.wiki/images/Cemetery_Teleport.png,Arceuus,71,Teleport,,Law;Blood;Soul,3,,Yes,82,2016,Teleports you to the Forgotten Cemetery
+Charge,https://oldschool.runescape.wiki/images/Charge.png,Standard,80,Combat,,Air;Fire;Blood,9,,Yes,180,2003,Temporarily increases the power of the three arena spells when wearing Mage Arena capes
+Charge Air Orb,https://oldschool.runescape.wiki/images/Charge_Air_Orb.png,Standard,66,Utility,,Air;Cosmic,33,Unpowered orb,Yes,76,2002,Needs to be cast on an air obelisk
+Charge Earth Orb,https://oldschool.runescape.wiki/images/Charge_Earth_Orb.png,Standard,60,Utility,,Earth;Cosmic,33,Unpowered orb,Yes,70,2002,Needs to be cast on an earth obelisk
+Charge Fire Orb,https://oldschool.runescape.wiki/images/Charge_Fire_Orb.png,Standard,63,Utility,,Fire;Cosmic,33,Unpowered orb,Yes,73,2002,Needs to be cast on a fire obelisk
+Charge Water Orb,https://oldschool.runescape.wiki/images/Charge_Water_Orb.png,Standard,56,Utility,,Water;Cosmic,33,Unpowered orb,Yes,66,2002,Needs to be cast on a water obelisk
+Civitas illa Fortis Teleport,https://oldschool.runescape.wiki/images/Civitas_illa_Fortis_Teleport.png,Standard,54,Teleport,,Earth;Fire;Law,4,,Yes,64,2024,Teleports you to Civitas illa Fortis
+Claws of Guthix,https://oldschool.runescape.wiki/images/Claws_of_Guthix.png,Standard,60,Combat,God,Air;Fire;Blood,7,,Yes,35,2003,Summons the power of Guthix
+Confuse,https://oldschool.runescape.wiki/images/Confuse.png,Standard,3,Combat,,Water;Earth;Body,6,,No,13,2001,Reduces your opponent's attack by 5%
+Crumble Undead,https://oldschool.runescape.wiki/images/Crumble_Undead.png,Standard,39,Combat,,Air;Earth;Chaos,5,,No,24.5,2001,"Hits skeletons, ghosts, shades & zombies hard"
+Cure Group,https://oldschool.runescape.wiki/images/Cure_Group.png,Lunar,74,Combat,,Cosmic;Law;Astral,6,,Yes,74,2006,Cure poison on players
+Cure Me,https://oldschool.runescape.wiki/images/Cure_Me.png,Lunar,71,Combat,,Cosmic;Law;Astral,5,,Yes,69,2006,Cure poison
+Cure Other,https://oldschool.runescape.wiki/images/Cure_Other.png,Lunar,68,Combat,,Earth;Law;Astral,12,,Yes,65,2006,Cure poisoned players
+Cure Plant,https://oldschool.runescape.wiki/images/Cure_Plant.png,Lunar,66,Utility,,Earth;Astral,9,,Yes,60,2006,Cures disease on farming patch
+Curse,https://oldschool.runescape.wiki/images/Curse.png,Standard,19,Combat,,Water;Earth;Body,6,,No,29,2001,Reduces your opponent's defence by 5%
+Dareeyak Teleport,https://oldschool.runescape.wiki/images/Dareeyak_Teleport.png,Ancient,78,Teleport,,Air;Fire;Law,7,,Yes,88,2005,A teleportation spell
+Dark Demonbane,https://oldschool.runescape.wiki/images/Dark_Demonbane.png,Arceuus,82,Combat,,Fire;Soul,9,,Yes,43.5,2021,Hits a demon for major damage
+Dark Lure,https://oldschool.runescape.wiki/images/Dark_Lure.png,Arceuus,50,Combat,,Nature;Death,2,,Yes,60,2021,Lures your target toward you
+Death Charge,https://oldschool.runescape.wiki/images/Death_Charge.png,Arceuus,80,Utility,,Death;Blood;Soul,3,,Yes,90,2021,Restores some of your special attack energy when you defeat a foe
+Degrime,https://oldschool.runescape.wiki/images/Degrime.png,Arceuus,70,Utility,,Earth;Nature,6,,Yes,83,2021,Cleans all of your grimy herbs
+Demonic Offering,https://oldschool.runescape.wiki/images/Demonic_Offering.png,Arceuus,84,Utility,,Soul;Wrath,2,,Yes,175,2021,Converts demonic ashes into prayer points and experience
+Draynor Manor Teleport,https://oldschool.runescape.wiki/images/Draynor_Manor_Teleport.png,Arceuus,17,Teleport,,Water;Earth;Law,3,,Yes,16,2016,Teleports you to Draynor Manor
+Dream,https://oldschool.runescape.wiki/images/Dream.png,Lunar,79,Combat,,Body;Cosmic;Astral,8,,Yes,82,2007,Take a rest and restore Hitpoints 3 times faster
+Earth Blast,https://oldschool.runescape.wiki/images/Earth_Blast.png,Standard,53,Combat,Earth,Air;Earth;Death,8,,No,31.5,2001,A medium level Earth missile
+Earth Bolt,https://oldschool.runescape.wiki/images/Earth_Bolt.png,Standard,29,Combat,Earth,Air;Earth;Chaos,6,,No,19.5,2001,A low level Earth missile
+Earth Strike,https://oldschool.runescape.wiki/images/Earth_Strike.png,Standard,9,Combat,Earth,Air;Earth;Mind,4,,No,9.5,2001,A basic Earth missile
+Earth Surge,https://oldschool.runescape.wiki/images/Earth_Surge.png,Standard,90,Combat,Earth,Air;Earth;Wrath,18,,Yes,48.2,2018,A very high level Earth missile
+Earth Wave,https://oldschool.runescape.wiki/images/Earth_Wave.png,Standard,70,Combat,Earth,Air;Earth;Blood,13,,Yes,40,2002,A high level Earth missile
+Edgeville Home Teleport,https://oldschool.runescape.wiki/images/Edgeville_Home_Teleport.png,Ancient,1,Teleport,,,0,,No,0,2007,Requires no runes - recharge time 30 mins. Warning: This spell takes a long time to cast and will be interrupted by combat.
+Enchant Crossbow Bolt (Diamond),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,57,Utility,,Earth;Cosmic;Law,13,,Yes,67,2006,For use on diamond-tipped bolts.
+Enchant Crossbow Bolt (Dragonstone),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,68,Utility,,Earth;Cosmic;Soul,17,,Yes,78,2006,For use on dragonstone-tipped bolts.
+Enchant Crossbow Bolt (Emerald),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,27,Utility,,Air;Cosmic;Nature,5,,Yes,37,2006,For use on emerald-tipped bolts.
+Enchant Crossbow Bolt (Jade),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,14,Utility,,Earth;Cosmic,3,,Yes,19,2006,For use on jade-tipped bolts.
+Enchant Crossbow Bolt (Onyx),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,87,Utility,,Fire;Cosmic;Death,22,,Yes,97,2006,For use on onyx-tipped bolts.
+Enchant Crossbow Bolt (Opal),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,4,Utility,,Air;Cosmic,3,,Yes,9,2006,For use on opal-tipped bolts.
+Enchant Crossbow Bolt (Pearl),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,24,Utility,,Water;Cosmic,3,,Yes,29,2006,For use on pearl-tipped bolts.
+Enchant Crossbow Bolt (Red Topaz),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,29,Utility,,Fire;Cosmic,3,,Yes,33.5,2006,For use on red topaz-tipped bolts.
+Enchant Crossbow Bolt (Ruby),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,49,Utility,,Fire;Cosmic;Blood,7,,Yes,59,2006,For use on ruby-tipped bolts.
+Enchant Crossbow Bolt (Sapphire),https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt.png,Standard,7,Utility,,Water;Mind;Cosmic,3,,Yes,17.5,2006,For use on sapphire-tipped bolts.
+Energy Transfer,https://oldschool.runescape.wiki/images/Energy_Transfer.png,Lunar,91,Combat,,Nature;Law;Astral,6,,Yes,100,2006,Spend Hitpoints and SA energy to give another SA and run energy
+Enfeeble,https://oldschool.runescape.wiki/images/Enfeeble.png,Standard,73,Combat,,Water;Earth;Soul,17,,Yes,83,2002,Reduces your opponent's strength by 10%
+Entangle,https://oldschool.runescape.wiki/images/Entangle.png,Standard,79,Combat,,Water;Earth;Nature,14,,Yes,89,2004,Holds your opponent for 15 seconds
+Expert Reanimation,https://oldschool.runescape.wiki/images/Expert_Reanimation.png,Arceuus,72,Utility,,Nature;Blood;Soul,6,,Yes,138,2021,Reanimates a high levelled creature
+Falador Teleport,https://oldschool.runescape.wiki/images/Falador_Teleport.png,Standard,37,Teleport,,Air;Water;Law,5,,No,48,2001,Teleports you to Falador
+Fenkenstrain's Castle Teleport,https://oldschool.runescape.wiki/images/Fenkenstrain%27s_Castle_Teleport.png,Arceuus,48,Teleport,,Earth;Law;Soul,3,,Yes,50,2016,Teleports you to Fenkenstrain's Castle
+Fertile Soil,https://oldschool.runescape.wiki/images/Fertile_Soil.png,Lunar,83,Utility,,Earth;Nature;Astral,20,,Yes,87,2006,Fertilise a farming patch with super compost
+Fire Blast,https://oldschool.runescape.wiki/images/Fire_Blast.png,Standard,59,Combat,Fire,Air;Fire;Death,10,,No,34.5,2001,A medium level Fire missile
+Fire Bolt,https://oldschool.runescape.wiki/images/Fire_Bolt.png,Standard,35,Combat,Fire,Air;Fire;Chaos,8,,No,22.5,2001,A low level Fire missile
+Fire Strike,https://oldschool.runescape.wiki/images/Fire_Strike.png,Standard,13,Combat,Fire,Air;Fire;Mind,6,,No,11.5,2001,A basic Fire missile
+Fire Surge,https://oldschool.runescape.wiki/images/Fire_Surge.png,Standard,95,Combat,Fire,Air;Fire;Wrath,18,,Yes,50.5,2018,A very high level Fire missile
+Fire Wave,https://oldschool.runescape.wiki/images/Fire_Wave.png,Standard,75,Combat,Fire,Air;Fire;Blood,13,,Yes,42.5,2002,A high level Fire missile
+Fishing Guild Teleport,https://oldschool.runescape.wiki/images/Fishing_Guild_Teleport.png,Lunar,85,Teleport,,Water;Law;Astral,16,,Yes,89,2006,Teleports you to the Fishing Guild
+Flames of Zamorak,https://oldschool.runescape.wiki/images/Flames_of_Zamorak.png,Standard,60,Combat,God,Air;Fire;Blood,7,,Yes,35,2003,Summons the power of Zamorak
+Geomancy,https://oldschool.runescape.wiki/images/Geomancy.png,Lunar,65,Utility,,Earth;Nature;Astral,14,,Yes,60,2015,Checks the status of your main Farming patches
+Ghorrock Teleport,https://oldschool.runescape.wiki/images/Ghorrock_Teleport.png,Ancient,96,Teleport,,Water;Law,10,,Yes,106,2005,A teleportation spell
+Ghostly Grasp,https://oldschool.runescape.wiki/images/Ghostly_Grasp.png,Arceuus,35,Combat,,Air;Chaos,5,,Yes,22.5,2021,Deals minor damage with a low chance of holding your target
+Greater Corruption,https://oldschool.runescape.wiki/images/Greater_Corruption.png,Arceuus,85,Combat,,Blood;Soul,4,,Yes,95,2021,Imbues your attacks with a greater corruption
+Harmony Island Teleport,https://oldschool.runescape.wiki/images/Harmony_Island_Teleport.png,Arceuus,65,Teleport,,Nature;Law;Soul,3,,Yes,74,2016,Teleports you to Harmony Island
+Heal Group,https://oldschool.runescape.wiki/images/Heal_Group.png,Lunar,95,Combat,,Law;Astral;Blood,13,,Yes,124,2006,Transfers up to 75% of Hitpoints to a group
+Heal Other,https://oldschool.runescape.wiki/images/Heal_Other.png,Lunar,92,Combat,,Law;Astral;Blood,7,,Yes,101,2006,Transfers up to 75% of Hitpoints to another player
+High Level Alchemy,https://oldschool.runescape.wiki/images/High_Level_Alchemy.png,Standard,55,Utility,,Fire;Nature,6,,No,65,2001,Converts an item into more gold
+Humidify,https://oldschool.runescape.wiki/images/Humidify.png,Lunar,68,Utility,,Water;Fire;Astral,5,,Yes,65,2007,Fills certain vessels with water
+Hunter Kit (spell),https://oldschool.runescape.wiki/images/Hunter_Kit.png,Lunar,71,Utility,,Earth;Astral,4,,Yes,70,2007,Get a kit of hunter gear
+Iban Blast,https://oldschool.runescape.wiki/images/Iban_Blast.png,Standard,50,Combat,,Fire;Death,6,Iban's staff,Yes,30,2003,Summons the wrath of Iban
+Ice Barrage,https://oldschool.runescape.wiki/images/Ice_Barrage.png,Ancient,94,Combat,Ice,Water;Death;Blood,12,,Yes,52,2005,A multi-target strong ice attack
+Ice Blitz,https://oldschool.runescape.wiki/images/Ice_Blitz.png,Ancient,82,Combat,Ice,Water;Death;Blood,7,,Yes,46,2005,A single target strong ice attack
+Ice Burst,https://oldschool.runescape.wiki/images/Ice_Burst.png,Ancient,70,Combat,Ice,Water;Chaos;Death,10,,Yes,40,2005,A multi-target ice attack
+Ice Plateau Teleport,https://oldschool.runescape.wiki/images/Ice_Plateau_Teleport.png,Lunar,89,Teleport,,Water;Law;Astral,14,,Yes,96,2006,Teleports you to Ice Plateau
+Ice Rush,https://oldschool.runescape.wiki/images/Ice_Rush.png,Ancient,58,Combat,Ice,Water;Chaos;Death,6,,Yes,34,2005,A single target ice attack
+Inferior Demonbane,https://oldschool.runescape.wiki/images/Inferior_Demonbane.png,Arceuus,44,Combat,,Fire;Chaos,4,,Yes,27,2021,Hits a demon for minor damage
+Kharyrll Teleport,https://oldschool.runescape.wiki/images/Kharyrll_Teleport.png,Ancient,66,Teleport,,Law;Blood,3,,Yes,76,2005,A teleportation spell
+Khazard Teleport,https://oldschool.runescape.wiki/images/Khazard_Teleport.png,Lunar,78,Teleport,,Water;Law;Astral,8,,Yes,80,2006,Teleports you to Port Khazard
+Kourend Castle Teleport,https://oldschool.runescape.wiki/images/Kourend_Castle_Teleport.png,Standard,48,Teleport,,Water;Fire;Law,4,,Yes,58,2016,Teleports you to Kourend Castle
+Lassar Teleport,https://oldschool.runescape.wiki/images/Lassar_Teleport.png,Ancient,72,Teleport,,Water;Law,6,,Yes,82,2005,A teleportation spell
+Lesser Corruption,https://oldschool.runescape.wiki/images/Lesser_Corruption.png,Arceuus,64,Combat,,Death;Soul,3,,Yes,75,2021,Imbues your attacks with a lesser corruption
+Low Level Alchemy,https://oldschool.runescape.wiki/images/Low_Level_Alchemy.png,Standard,21,Utility,,Fire;Nature,4,,No,31,2001,Converts an item into gold
+Lumbridge Home Teleport,https://oldschool.runescape.wiki/images/Lumbridge_Home_Teleport.png,Standard,0,Teleport,,,0,,No,0,2006,Requires no runes - recharge time 30 mins. Warning: This spell takes a long time to cast and will be interrupted by combat.
+Lumbridge Teleport,https://oldschool.runescape.wiki/images/Lumbridge_Teleport.png,Standard,31,Teleport,,Air;Earth;Law,5,,No,41,2001,Teleports you to Lumbridge
+Lunar Home Teleport,https://oldschool.runescape.wiki/images/Lunar_Home_Teleport.png,Lunar,1,Teleport,,,0,,Yes,0,2007,Requires no runes - recharge time 30 mins. Warning: This spell takes a long time to cast and will be interrupted by combat.
+Lvl-1 Enchant,https://oldschool.runescape.wiki/images/Lvl-1_Enchant.png,Standard,7,Utility,,Water;Cosmic,2,,No,17.5,2001,For use on sapphire and opal jewellery
+Lvl-2 Enchant,https://oldschool.runescape.wiki/images/Lvl-2_Enchant.png,Standard,27,Utility,,Air;Cosmic,4,,No,37,2001,For use on emerald and jade jewellery
+Lvl-3 Enchant,https://oldschool.runescape.wiki/images/Lvl-3_Enchant.png,Standard,49,Utility,,Fire;Cosmic,6,,No,59,2001,For use on a ruby and topaz jewellery
+Lvl-4 Enchant,https://oldschool.runescape.wiki/images/Lvl-4_Enchant.png,Standard,57,Utility,,Earth;Cosmic,11,,No,67,2001,For use on diamond jewellery
+Lvl-5 Enchant,https://oldschool.runescape.wiki/images/Lvl-5_Enchant.png,Standard,68,Utility,,Water;Earth;Cosmic,31,,Yes,78,2002,For use on dragonstone jewellery
+Lvl-6 Enchant,https://oldschool.runescape.wiki/images/Lvl-6_Enchant.png,Standard,87,Utility,,Earth;Fire;Cosmic,41,,Yes,97,2005,For use on onyx jewellery
+Lvl-7 Enchant,https://oldschool.runescape.wiki/images/Lvl-7_Enchant.png,Standard,93,Utility,,Cosmic;Blood;Soul,41,,Yes,110,2016,For use on zenyte jewellery
+Magic Dart,https://oldschool.runescape.wiki/images/Magic_Dart.png,Standard,50,Combat,,Mind;Death,5,,Yes,30,2005,A magic dart of slaying
+Magic Imbue,https://oldschool.runescape.wiki/images/Magic_Imbue.png,Lunar,82,Utility,,Water;Fire;Astral,16,,Yes,86,2006,Combine runes without a talisman
+Mark of Darkness,https://oldschool.runescape.wiki/images/Mark_of_Darkness.png,Arceuus,59,Combat,,Cosmic;Soul,2,,Yes,70,2021,Makes your offensive Arceuus spells more potent
+Master Reanimation,https://oldschool.runescape.wiki/images/Master_Reanimation.png,Arceuus,90,Utility,,Nature;Blood;Soul,10,,Yes,170,2021,Reanimates a very high levelled creature
+Mind Altar Teleport,https://oldschool.runescape.wiki/images/Mind_Altar_Teleport.png,Arceuus,28,Teleport,,Mind;Law,3,,Yes,22,2016,Teleports you to the Mind Altar
+Minigame Teleport,https://oldschool.runescape.wiki/images/Minigame_Teleport.png,All,1,Teleport,,,0,,No,0,2026,Requires no runes - recharge time 20 mins. Warning: This spell takes a long time to cast and will be interrupted by combat.
+Monster Examine,https://oldschool.runescape.wiki/images/Monster_Examine.png,Lunar,66,Combat,,Mind;Cosmic;Astral,3,,Yes,61,2007,Detect the combat statistics of a monster
+Monster Inspect,https://oldschool.runescape.wiki/images/Monster_Inspect.png,Standard,42,Utility,,Mind;Body,4,,No,30.5,2025,Inspect various statistics of a monster
+Moonclan Teleport,https://oldschool.runescape.wiki/images/Moonclan_Teleport.png,Lunar,69,Teleport,,Earth;Law;Astral,5,,Yes,66,2006,Teleports you to Moonclan Island
+Ourania Teleport,https://oldschool.runescape.wiki/images/Ourania_Teleport.png,Lunar,71,Teleport,,Earth;Law;Astral,9,,Yes,69,2016,Teleports you to the Ourania altar
+Paddewwa Teleport,https://oldschool.runescape.wiki/images/Paddewwa_Teleport.png,Ancient,54,Teleport,,Air;Fire;Law,4,,Yes,64,2005,A teleportation spell
+Plank Make,https://oldschool.runescape.wiki/images/Plank_Make.png,Lunar,86,Utility,,Earth;Nature;Astral,18,Coins,Yes,90,2007,Turn logs into planks
+Recharge Dragonstone,https://oldschool.runescape.wiki/images/Recharge_Dragonstone.png,Lunar,89,Utility,,Water;Astral;Soul,6,,Yes,97.5,2015,Recharges enchanted dragonstone jewellery
+Respawn Teleport,https://oldschool.runescape.wiki/images/Respawn_Teleport.png,Arceuus,34,Teleport,,Law;Soul,2,,Yes,27,2016,Teleports you to your respawn location
+Resurrect Crops,https://oldschool.runescape.wiki/images/Resurrect_Crops.png,Arceuus,78,Utility,,Earth;Nature;Blood;Soul,53,,Yes,90,2016,Gives a chance to resurrect dead farming crops
+Resurrect Greater Ghost,https://oldschool.runescape.wiki/images/Resurrect_Greater_Ghost.png,Arceuus,76,Combat,,Fire;Cosmic;Blood,16,Book of the Dead,Yes,88,2021,Calls upon a greater ghostly thrall to fight alongside you
+Resurrect Greater Skeleton,https://oldschool.runescape.wiki/images/Resurrect_Greater_Skeleton.png,Arceuus,76,Combat,,Fire;Cosmic;Blood,16,Book of the Dead,Yes,88,2021,Calls upon a greater skeletal thrall to fight alongside you
+Resurrect Greater Zombie,https://oldschool.runescape.wiki/images/Resurrect_Greater_Zombie.png,Arceuus,76,Combat,,Fire;Cosmic;Blood,16,Book of the Dead,Yes,88,2021,Calls upon a greater zombified thrall to fight alongside you
+Resurrect Lesser Ghost,https://oldschool.runescape.wiki/images/Resurrect_Lesser_Ghost.png,Arceuus,38,Combat,,Air;Mind;Cosmic,16,Book of the Dead,Yes,55,2021,Calls upon a lesser ghostly thrall to fight alongside you
+Resurrect Lesser Skeleton,https://oldschool.runescape.wiki/images/Resurrect_Lesser_Skeleton.png,Arceuus,38,Combat,,Air;Mind;Cosmic,16,Book of the Dead,Yes,55,2021,Calls upon a lesser skeletal thrall to fight alongside you
+Resurrect Lesser Zombie,https://oldschool.runescape.wiki/images/Resurrect_Lesser_Zombie.png,Arceuus,38,Combat,,Air;Mind;Cosmic,16,Book of the Dead,Yes,55,2021,Calls upon a lesser zombified thrall to fight alongside you
+Resurrect Superior Ghost,https://oldschool.runescape.wiki/images/Resurrect_Superior_Ghost.png,Arceuus,57,Combat,,Earth;Cosmic;Death,16,Book of the Dead,Yes,70,2021,Calls upon a superior ghostly thrall to fight alongside you
+Resurrect Superior Skeleton,https://oldschool.runescape.wiki/images/Resurrect_Superior_Skeleton.png,Arceuus,57,Combat,,Earth;Cosmic;Death,16,Book of the Dead,Yes,70,2021,Calls upon a superior skeletal thrall to fight alongside you
+Resurrect Superior Zombie,https://oldschool.runescape.wiki/images/Resurrect_Superior_Zombie.png,Arceuus,57,Combat,,Earth;Cosmic;Death,16,Book of the Dead,Yes,70,2021,Calls upon a superior zombified thrall to fight alongside you
+Salve Graveyard Teleport,https://oldschool.runescape.wiki/images/Salve_Graveyard_Teleport.png,Arceuus,40,Teleport,,Law;Soul,3,,Yes,30,2016,Teleports you to the graveyard on the River Salve
+Saradomin Strike,https://oldschool.runescape.wiki/images/Saradomin_Strike.png,Standard,60,Combat,God,Air;Fire;Blood,8,,Yes,35,2003,Summons the power of Saradomin
+Senntisten Teleport,https://oldschool.runescape.wiki/images/Senntisten_Teleport.png,Ancient,60,Teleport,,Law;Soul,3,,Yes,70,2005,A teleportation spell
+Shadow Barrage,https://oldschool.runescape.wiki/images/Shadow_Barrage.png,Ancient,88,Combat,Shadow,Air;Death;Blood;Soul,13,,Yes,49,2005,A multi-target strong shadow attack
+Shadow Blitz,https://oldschool.runescape.wiki/images/Shadow_Blitz.png,Ancient,76,Combat,Shadow,Air;Death;Blood;Soul,8,,Yes,43,2005,A single target strong shadow attack
+Shadow Burst,https://oldschool.runescape.wiki/images/Shadow_Burst.png,Ancient,64,Combat,Shadow,Air;Chaos;Death;Soul,9,,Yes,37,2005,A multi-target shadow attack
+Shadow Rush,https://oldschool.runescape.wiki/images/Shadow_Rush.png,Ancient,52,Combat,Shadow,Air;Chaos;Death;Soul,6,,Yes,31,2005,A single target shadow attack
+Shadow Veil,https://oldschool.runescape.wiki/images/Shadow_Veil.png,Arceuus,47,Utility,,Earth;Fire;Cosmic,15,,Yes,58,2021,Reduces your chance of being caught when pickpocketing
+Sinister Offering,https://oldschool.runescape.wiki/images/Sinister_Offering.png,Arceuus,92,Utility,,Blood;Wrath,2,,Yes,180,2021,Converts bones into prayer points and experience
+Skeletal Grasp,https://oldschool.runescape.wiki/images/Skeletal_Grasp.png,Arceuus,56,Combat,,Earth;Death,9,,Yes,33,2021,Deals medium damage with a medium chance of holding your target
+Smoke Barrage,https://oldschool.runescape.wiki/images/Smoke_Barrage.png,Ancient,86,Combat,Smoke,Air;Fire;Death;Blood,14,,Yes,48,2005,A multi-target strong smoke attack
+Smoke Blitz,https://oldschool.runescape.wiki/images/Smoke_Blitz.png,Ancient,74,Combat,Smoke,Air;Fire;Death;Blood,8,,Yes,42,2005,A single target strong smoke attack
+Smoke Burst,https://oldschool.runescape.wiki/images/Smoke_Burst.png,Ancient,62,Combat,Smoke,Air;Fire;Chaos;Death,10,,Yes,36,2005,A multi-target smoke attack
+Smoke Rush,https://oldschool.runescape.wiki/images/Smoke_Rush.png,Ancient,50,Combat,Smoke,Air;Fire;Chaos;Death,6,,Yes,30,2005,A single target smoke attack
+Snare,https://oldschool.runescape.wiki/images/Snare.png,Standard,50,Combat,,Water;Earth;Nature,11,,No,61,2004,Hold your opponent for 10 seconds
+Spellbook Swap,https://oldschool.runescape.wiki/images/Spellbook_Swap.png,Lunar,96,Utility,,Cosmic;Law;Astral,6,,Yes,130,2007,Change to another spellbook for 1 spell cast
+Spin Flax,https://oldschool.runescape.wiki/images/Spin_Flax.png,Lunar,76,Utility,,Air;Nature;Astral,8,,Yes,75,2016,Turn flax into bowstring
+Stat Restore Pot Share,https://oldschool.runescape.wiki/images/Stat_Restore_Pot_Share.png,Lunar,81,Combat,,Water;Earth;Astral,22,,Yes,84,2006,Shares a potion with up to 4 nearby players
+Stat Spy,https://oldschool.runescape.wiki/images/Stat_Spy.png,Lunar,75,Combat,,Body;Cosmic;Astral,9,,Yes,76,2007,Cast on another player to see their skill levels
+String Jewellery,https://oldschool.runescape.wiki/images/String_Jewellery.png,Lunar,80,Utility,,Water;Earth;Astral,17,,Yes,83,2006,String amulets without wool
+Stun,https://oldschool.runescape.wiki/images/Stun.png,Standard,80,Combat,,Water;Earth;Soul,25,,Yes,90,2002,Reduces your opponent's attack by 10%
+Summon Boat,https://oldschool.runescape.wiki/images/Summon_Boat.png,Standard,56,Teleport,,Water;Earth;Law,4,,Yes,66,2025,Teleports your boat to the dock nearest you
+Superglass Make,https://oldschool.runescape.wiki/images/Superglass_Make.png,Lunar,77,Utility,,Air;Fire;Astral,18,,Yes,78,2006,Make glass without a furnace
+Superheat Item,https://oldschool.runescape.wiki/images/Superheat_Item.png,Standard,43,Utility,,Fire;Nature,5,,No,53,2001,Smelt ore without a furnace
+Superior Demonbane,https://oldschool.runescape.wiki/images/Superior_Demonbane.png,Arceuus,62,Combat,,Fire;Soul,6,,Yes,36,2021,Hits a demon for moderate damage
+Tan Leather,https://oldschool.runescape.wiki/images/Tan_Leather.png,Lunar,78,Utility,,Fire;Nature;Astral,8,,Yes,81,2015,Tans up to 5 hides
+Tele Block,https://oldschool.runescape.wiki/images/Tele_Block.png,Standard,85,Combat,,Chaos;Law;Death,3,,No,83.6,2005,Stops your target from teleporting
+Tele Group Barbarian,https://oldschool.runescape.wiki/images/Tele_Group_Barbarian.png,Lunar,76,Teleport,,Fire;Law;Astral,10,,Yes,77,2006,Teleports players to the Barbarian Outpost
+Tele Group Catherby,https://oldschool.runescape.wiki/images/Tele_Group_Catherby.png,Lunar,88,Teleport,,Water;Law;Astral,21,,Yes,93,2006,Teleports players to Catherby
+Tele Group Fishing Guild,https://oldschool.runescape.wiki/images/Tele_Group_Fishing_Guild.png,Lunar,86,Teleport,,Water;Law;Astral,20,,Yes,90,2006,Teleports players to the Fishing Guild
+Tele Group Ice Plateau,https://oldschool.runescape.wiki/images/Tele_Group_Ice_Plateau.png,Lunar,90,Teleport,,Water;Law;Astral,22,,Yes,99,2006,Teleports players to Ice Plateau
+Tele Group Khazard,https://oldschool.runescape.wiki/images/Tele_Group_Khazard.png,Lunar,79,Teleport,,Water;Law;Astral,12,,Yes,81,2006,Teleports players to Port Khazard
+Tele Group Moonclan,https://oldschool.runescape.wiki/images/Tele_Group_Moonclan.png,Lunar,70,Teleport,,Earth;Law;Astral,7,,Yes,67,2006,Teleports players to Moonclan Island
+Tele Group Waterbirth,https://oldschool.runescape.wiki/images/Tele_Group_Waterbirth.png,Lunar,73,Teleport,,Water;Law;Astral,8,,Yes,72,2006,Teleports players to Waterbirth Island
+Telekinetic Grab,https://oldschool.runescape.wiki/images/Telekinetic_Grab.png,Standard,33,Utility,,Air;Law,2,,No,43,2001,Take an item you can see but can't reach
+Teleother Camelot,https://oldschool.runescape.wiki/images/Teleother_Camelot.png,Standard,90,Teleport,,Law;Soul,3,,Yes,100,2005,Teleports target to Camelot
+Teleother Falador,https://oldschool.runescape.wiki/images/Teleother_Falador.png,Standard,82,Teleport,,Water;Law;Soul,3,,Yes,92,2005,Teleports target to Falador
+Teleother Lumbridge,https://oldschool.runescape.wiki/images/Teleother_Lumbridge.png,Standard,74,Teleport,,Earth;Law;Soul,3,,Yes,84,2005,Teleports target to Lumbridge
+Teleport to Boat,https://oldschool.runescape.wiki/images/Teleport_to_Boat.png,Standard,67,Teleport,,Water;Earth;Law,6,,Yes,77,2025,Teleports you to your boat
+Teleport to House,https://oldschool.runescape.wiki/images/Teleport_to_House.png,Standard,40,Teleport,,Air;Earth;Law,3,,Yes,30,2006,Teleports you to your house
+Teleport to Target,https://oldschool.runescape.wiki/images/Teleport_to_Target.png,All,85,Teleport,,Chaos;Law;Death,3,,Yes,45,2014,Teleports you near your Target
+Trollheim Teleport,https://oldschool.runescape.wiki/images/Trollheim_Teleport.png,Standard,61,Teleport,,Fire;Law,4,,Yes,68,2004,Teleports you to Trollheim
+Undead Grasp,https://oldschool.runescape.wiki/images/Undead_Grasp.png,Arceuus,79,Combat,,Fire;Blood,13,,Yes,46.5,2021,Deals major damage with a high chance of holding your target
+Varrock Teleport,https://oldschool.runescape.wiki/images/Varrock_Teleport.png,Standard,25,Teleport,,Air;Fire;Law,5,,No,35,2001,Teleports you to Varrock
+Vengeance,https://oldschool.runescape.wiki/images/Vengeance.png,Lunar,94,Combat,,Earth;Death;Astral,16,,Yes,112,2006,Rebound damage to an opponent
+Vengeance Other,https://oldschool.runescape.wiki/images/Vengeance_Other.png,Lunar,93,Combat,,Earth;Death;Astral,15,,Yes,108,2006,Allows another player to rebound damage to an opponent
+Vile Vigour,https://oldschool.runescape.wiki/images/Vile_Vigour.png,Arceuus,66,Utility,,Air;Soul,4,,Yes,76,2021,Converts your available prayer points into run energy
+Vulnerability,https://oldschool.runescape.wiki/images/Vulnerability.png,Standard,66,Combat,,Water;Earth;Soul,11,,Yes,76,2002,Reduces your opponent's defence by 10%
+Ward of Arceuus,https://oldschool.runescape.wiki/images/Ward_of_Arceuus.png,Arceuus,73,Combat,,Cosmic;Nature;Soul,7,,Yes,83,2021,Gives you protection from the effects of offensive Arceuus spells and demonic attacks
+Watchtower Teleport,https://oldschool.runescape.wiki/images/Watchtower_Teleport.png,Standard,58,Teleport,,Earth;Law,4,,Yes,68,2003,Teleports you to the Watchtower
+Water Blast,https://oldschool.runescape.wiki/images/Water_Blast.png,Standard,47,Combat,Water,Air;Water;Death,7,,No,28.5,2001,A medium level Water missile
+Water Bolt,https://oldschool.runescape.wiki/images/Water_Bolt.png,Standard,23,Combat,Water,Air;Water;Chaos,5,,No,16.5,2001,A low level Water missile
+Water Strike,https://oldschool.runescape.wiki/images/Water_Strike.png,Standard,5,Combat,Water,Air;Water;Mind,3,,No,7.5,2001,A basic Water missile
+Water Surge,https://oldschool.runescape.wiki/images/Water_Surge.png,Standard,85,Combat,Water,Air;Water;Wrath,18,,Yes,46.5,2018,A very high level Water missile
+Water Wave,https://oldschool.runescape.wiki/images/Water_Wave.png,Standard,65,Combat,Water,Air;Water;Blood,13,,Yes,37.5,2002,A high level Water missile
+Waterbirth Teleport,https://oldschool.runescape.wiki/images/Waterbirth_Teleport.png,Lunar,72,Teleport,,Water;Law;Astral,4,,Yes,71,2006,Teleports you to Waterbirth Island
+Weaken,https://oldschool.runescape.wiki/images/Weaken.png,Standard,11,Combat,,Water;Earth;Body,6,,No,21,2001,Reduces your opponent's strength by 5%
+West Ardougne Teleport,https://oldschool.runescape.wiki/images/West_Ardougne_Teleport.png,Arceuus,61,Teleport,,Law;Soul,4,,Yes,68,2016,Teleports you to West Ardougne
+Wind Blast,https://oldschool.runescape.wiki/images/Wind_Blast.png,Standard,41,Combat,Air,Air;Death,4,,No,25.5,2001,A medium level Air missile
+Wind Bolt,https://oldschool.runescape.wiki/images/Wind_Bolt.png,Standard,17,Combat,Air,Air;Chaos,3,,No,13.5,2001,A low level Air missile
+Wind Strike,https://oldschool.runescape.wiki/images/Wind_Strike.png,Standard,1,Combat,Air,Air;Mind,2,,No,5.5,2001,A basic Air missile
+Wind Surge,https://oldschool.runescape.wiki/images/Wind_Surge.png,Standard,81,Combat,Air,Air;Wrath,8,,Yes,44.5,2018,A very high level Air missile
+Wind Wave,https://oldschool.runescape.wiki/images/Wind_Wave.png,Standard,62,Combat,Air,Air;Blood,6,,Yes,36,2002,A high level Air missile
